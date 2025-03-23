@@ -43,7 +43,8 @@ export default function Hero() {
           >
             {/* Anime character image */}
             <div className="rounded-lg shadow-neon-purple overflow-hidden relative">
-              <AnimeCharacterSVG />
+              {/* Ganti dengan karakter anime baru */}
+              <img src="/assets/anime-character-new.svg" alt="Shojo Anime Character" />
               
               {/* Futuristic overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-cyberpunk-blue/70 to-transparent rounded-lg"></div>

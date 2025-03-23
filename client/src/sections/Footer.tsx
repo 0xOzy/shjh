@@ -9,28 +9,28 @@ export default function Footer() {
     {
       title: "Resources",
       links: [
-        { name: "Documentation", href: "#" },
-        { name: "API References", href: "#" },
-        { name: "Developer Hub", href: "#" },
-        { name: "Tutorials", href: "#" },
+        { name: "Documentation", href: "/documentation" },
+        { name: "API References", href: "#", comingSoon: true },
+        { name: "Developer Hub", href: "#", comingSoon: true },
+        { name: "Tutorials", href: "#", comingSoon: true },
       ]
     },
     {
       title: "Company",
       links: [
-        { name: "About Us", href: "#" },
-        { name: "Careers", href: "#" },
-        { name: "Press Kit", href: "#" },
-        { name: "Contact", href: "#" },
+        { name: "About Us", href: "#", comingSoon: true },
+        { name: "Careers", href: "#", comingSoon: true },
+        { name: "Press Kit", href: "#", comingSoon: true },
+        { name: "Contact", href: "#", comingSoon: true },
       ]
     },
     {
       title: "Legal",
       links: [
-        { name: "Privacy Policy", href: "#" },
-        { name: "Terms of Service", href: "#" },
-        { name: "Security", href: "#" },
-        { name: "Compliance", href: "#" },
+        { name: "Privacy Policy", href: "/privacy-policy" },
+        { name: "Terms of Service", href: "/terms-of-service" },
+        { name: "Security", href: "/security" },
+        { name: "Compliance", href: "/compliance" },
       ]
     }
   ];
@@ -96,13 +96,16 @@ export default function Footer() {
                 <BinaryText>{section.title}</BinaryText>
               </h4>
               <ul className="space-y-2 font-mono text-sm">
-                {section.links.map((link, linkIndex) => (
+                {section.links.map((link: any, linkIndex) => (
                   <li key={linkIndex}>
                     <a 
                       href={link.href} 
                       className="text-foreground/70 hover:text-neon-blue transition-colors"
                     >
                       {link.name}
+                      {link.comingSoon && (
+                        <span className="ml-2 text-xs text-neon-blue/70">(Coming Soon)</span>
+                      )}
                     </a>
                   </li>
                 ))}
