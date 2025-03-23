@@ -9,6 +9,7 @@ interface NeonButtonProps {
   href?: string;
   primary?: boolean;
   onClick?: () => void;
+  comingSoon?: boolean;
 }
 
 export default function NeonButton({ 
@@ -16,7 +17,8 @@ export default function NeonButton({
   className = "", 
   href,
   primary = false,
-  onClick
+  onClick,
+  comingSoon = false
 }: NeonButtonProps) {
   const buttonContent = (
     <motion.span
@@ -35,7 +37,9 @@ export default function NeonButton({
       onClick={onClick}
     >
       <span className="relative z-10">
-        <BinaryText>{children}</BinaryText>
+        <BinaryText changeToComingSoon={comingSoon} triggerOnLoad={false}>
+          {children}
+        </BinaryText>
       </span>
       {primary && (
         <motion.span

@@ -26,7 +26,7 @@ export default function Hero() {
               lightning-fast performance, and AI-powered optimizations.
             </p>
             <div className="flex flex-wrap gap-4">
-              <NeonButton href="#get-started" primary>
+              <NeonButton href="#get-started" primary comingSoon>
                 Get Started
               </NeonButton>
               <NeonButton href="#about">
@@ -43,8 +43,8 @@ export default function Hero() {
           >
             {/* Anime character image */}
             <div className="rounded-lg shadow-neon-purple overflow-hidden relative">
-              {/* Ganti dengan karakter anime baru */}
-              <img src="/assets/anime-character-new.svg" alt="Shojo Anime Character" />
+              {/* Menggunakan karakter anime baru dari direktori assets */}
+              <img src="/src/assets/anime-character-new.svg" alt="Shojo Anime Character" className="w-full h-auto" />
               
               {/* Futuristic overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-cyberpunk-blue/70 to-transparent rounded-lg"></div>
