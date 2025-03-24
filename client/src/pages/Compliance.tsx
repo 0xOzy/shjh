@@ -42,19 +42,19 @@ export default function Compliance() {
               transition={{ duration: 0.6 }}
             >
               <TerminalWindow title="compliance_overview.sh" showTime>
-                <p className="text-neon-blue mb-2">$ <span className="text-foreground">shojo --compliance-status</span></p>
-                <p className="text-foreground mb-4">Loading Shojo compliance framework information...</p>
+                <p className="text-neon-blue mb-2">$ <span className="text-foreground">shojo --ai-ethics-compliance</span></p>
+                <p className="text-foreground mb-4">Loading Shojo AI Research Lab compliance framework information...</p>
                 <p className="text-success mb-4">Compliance report generated successfully.</p>
                 
                 <div className="mb-6">
                   <p className="text-foreground mb-2">// REGULATORY COMPLIANCE OVERVIEW</p>
                   <p className="mb-3">
-                    The Shojo protocol is designed with compliance at its core, ensuring adherence to global regulatory standards while maintaining the decentralized ethos of the network. Our compliance framework is continuously updated to reflect evolving regulatory landscapes.
+                    The Shojo AI Research Lab is designed with ethics and compliance at its core, ensuring adherence to global AI regulatory standards and ethical guidelines. Our research framework incorporates responsible AI principles, data privacy safeguards, and transparent reporting mechanisms to maintain the highest standards of scientific and ethical integrity.
                   </p>
                 </div>
                 
                 <div className="mb-6">
-                  <p className="text-foreground mb-2">// GLOBAL COMPLIANCE STANDARDS</p>
+                  <p className="text-foreground mb-2">// AI ETHICS AND COMPLIANCE STANDARDS</p>
                   <table className="w-full border-collapse text-sm mb-3">
                     <thead>
                       <tr>
@@ -70,51 +70,55 @@ export default function Compliance() {
                         <td className="py-2">Q1 2025</td>
                       </tr>
                       <tr className="border-t border-foreground/20">
-                        <td className="py-2">SOC 2 Type II</td>
+                        <td className="py-2">EU AI Act Compliance</td>
+                        <td className="py-2 text-success">Full Compliance</td>
+                        <td className="py-2">Q1 2025</td>
+                      </tr>
+                      <tr className="border-t border-foreground/20">
+                        <td className="py-2">GDPR (EU Data Protection)</td>
+                        <td className="py-2 text-success">Compliant</td>
+                        <td className="py-2">Q4 2024</td>
+                      </tr>
+                      <tr className="border-t border-foreground/20">
+                        <td className="py-2">IEEE 7000 (AI Ethics)</td>
+                        <td className="py-2 text-success">Certified</td>
+                        <td className="py-2">Q4 2024</td>
+                      </tr>
+                      <tr className="border-t border-foreground/20">
+                        <td className="py-2">HIPAA (Healthcare AI Applications)</td>
                         <td className="py-2 text-success">Compliant</td>
                         <td className="py-2">Q1 2025</td>
                       </tr>
                       <tr className="border-t border-foreground/20">
-                        <td className="py-2">GDPR (EU)</td>
-                        <td className="py-2 text-success">Compliant</td>
-                        <td className="py-2">Q4 2024</td>
-                      </tr>
-                      <tr className="border-t border-foreground/20">
-                        <td className="py-2">CCPA (California)</td>
-                        <td className="py-2 text-success">Compliant</td>
-                        <td className="py-2">Q4 2024</td>
-                      </tr>
-                      <tr className="border-t border-foreground/20">
-                        <td className="py-2">HIPAA (Healthcare)</td>
-                        <td className="py-2 text-success">Compliant</td>
+                        <td className="py-2">NIST AI Risk Management Framework</td>
+                        <td className="py-2 text-success">Implemented</td>
                         <td className="py-2">Q1 2025</td>
-                      </tr>
-                      <tr className="border-t border-foreground/20">
-                        <td className="py-2">PCI DSS (Payment Security)</td>
-                        <td className="py-2 text-success">Level 1</td>
-                        <td className="py-2">Q4 2024</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
                 
                 <div className="mb-6">
-                  <p className="text-foreground mb-2">// COMPLIANCE APPROACH</p>
-                  <p className="mb-1">Shojo's compliance strategy is built on three core pillars:</p>
+                  <p className="text-foreground mb-2">// AI ETHICS FRAMEWORK</p>
+                  <p className="mb-1">Shojo AI Research Lab's ethical approach is built on five core principles:</p>
                   <ul className="list-disc list-inside pl-4 space-y-1 mb-3">
-                    <li><span className="text-neon-purple">Proactive Compliance:</span> Anticipating regulatory changes and implementing updates ahead of enforcement dates</li>
-                    <li><span className="text-neon-purple">Privacy by Design:</span> Building data protection and privacy controls into the core architecture</li>
-                    <li><span className="text-neon-purple">Transparent Reporting:</span> Regular public disclosures of compliance status and audit results</li>
+                    <li><span className="text-neon-purple">Responsible AI Development:</span> All research undergoes ethical review before, during, and after completion</li>
+                    <li><span className="text-neon-purple">Data Privacy & Sovereignty:</span> Strict controls over data usage with transparent opt-in policies</li>
+                    <li><span className="text-neon-purple">Bias Detection & Mitigation:</span> Continuous monitoring and correction of algorithmic biases</li>
+                    <li><span className="text-neon-purple">Human-Centered Design:</span> AI systems designed to augment human capabilities, not replace human judgment</li>
+                    <li><span className="text-neon-purple">Transparent Reporting:</span> Regular public disclosures of research impacts and ethical considerations</li>
                   </ul>
                 </div>
                 
                 <div>
-                  <p className="text-foreground mb-2">// ONGOING COMPLIANCE INITIATIVES</p>
+                  <p className="text-foreground mb-2">// ONGOING AI RESEARCH GOVERNANCE</p>
                   <ul className="list-disc list-inside pl-4 space-y-1">
-                    <li>Quarterly third-party compliance audits and penetration testing</li>
-                    <li>Continuous monitoring of global regulatory developments</li>
-                    <li>Regular compliance training for all team members</li>
-                    <li>Participation in regulatory working groups and standards bodies</li>
+                    <li>Independent ethics board review of all research initiatives</li>
+                    <li>Quarterly third-party AI safety and security audits</li>
+                    <li>Continuous monitoring of global AI regulatory developments</li>
+                    <li>Advanced model risk assessment and limitation frameworks</li>
+                    <li>Regular ethics and compliance training for all research staff</li>
+                    <li>Active participation in global AI ethics and safety working groups</li>
                   </ul>
                 </div>
                 
@@ -130,32 +134,38 @@ export default function Compliance() {
               >
                 <CyberpunkCard className="p-6">
                   <h3 className="text-xl font-bold mb-3 font-display text-white">
-                    <BinaryText>Compliance Resources</BinaryText>
+                    <BinaryText>AI Ethics Resources</BinaryText>
                   </h3>
                   <ul className="space-y-3 text-foreground/80 font-mono text-sm">
                     <li className="flex items-center">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2 text-neon-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                       </svg>
-                      Compliance Certificates
+                      Certification Documents
                     </li>
                     <li className="flex items-center">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2 text-neon-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                       </svg>
-                      Audit Reports
+                      Ethics Board Reports
                     </li>
                     <li className="flex items-center">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2 text-neon-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                       </svg>
-                      Whitepapers
+                      Research Whitepapers
                     </li>
                     <li className="flex items-center">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2 text-neon-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                       </svg>
-                      Security Documentation
+                      Model Cards & Documentation
+                    </li>
+                    <li className="flex items-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2 text-neon-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                      </svg>
+                      Transparency Reports
                     </li>
                   </ul>
                 </CyberpunkCard>
@@ -168,12 +178,12 @@ export default function Compliance() {
               >
                 <CyberpunkCard className="p-6">
                   <h3 className="text-xl font-bold mb-3 font-display text-white">
-                    <BinaryText>Compliance Contact</BinaryText>
+                    <BinaryText>Ethics & Compliance Team</BinaryText>
                   </h3>
                   <p className="text-foreground/80 font-mono text-sm mb-4">
-                    For specific compliance inquiries or to request detailed compliance documentation, please contact our dedicated compliance team.
+                    For specific AI ethics inquiries, compliance questions, or to request detailed documentation about our ethical frameworks, please contact our dedicated team.
                   </p>
-                  <p className="text-neon-blue font-mono text-sm">compliance@shojo.ai</p>
+                  <p className="text-neon-blue font-mono text-sm">ethics@shojo.ai</p>
                 </CyberpunkCard>
               </motion.div>
 
@@ -184,14 +194,14 @@ export default function Compliance() {
               >
                 <CyberpunkCard className="p-6">
                   <h3 className="text-xl font-bold mb-3 font-display text-white">
-                    <BinaryText>Report Compliance Issues</BinaryText>
+                    <BinaryText>Responsible AI Reporting</BinaryText>
                   </h3>
                   <p className="text-foreground/80 font-mono text-sm mb-4">
-                    If you identify potential compliance concerns or have suggestions for our compliance program, we encourage you to report them.
+                    If you identify potential AI safety concerns, ethics issues, or have suggestions for improving our research governance, we encourage you to report them through our secure channel.
                   </p>
                   <div className="bg-neon-blue/10 p-3 rounded border border-neon-blue/30">
                     <p className="text-foreground/80 font-mono text-xs">
-                      All reports are confidential and help strengthen our compliance framework.
+                      All reports are confidential and help us improve our AI safety and ethics frameworks. We offer a reporting bounty program for significant findings.
                     </p>
                   </div>
                 </CyberpunkCard>
