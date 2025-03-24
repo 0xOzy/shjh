@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import BinaryText from "@/components/BinaryText";
 import TerminalWindow from "@/components/TerminalWindow";
 import CyberpunkCard from "@/components/CyberpunkCard";
+import alexAvatar from "@/assets/team-alex.svg";
+import miaAvatar from "@/assets/team-mia.svg";
+import rayAvatar from "@/assets/team-ray.svg";
 
 export default function AboutUs() {
   return (
@@ -115,24 +118,24 @@ export default function AboutUs() {
             <h2 className="text-2xl font-display mb-6 text-center">Our Team</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="w-24 h-24 mx-auto mb-4 bg-cyberpunk-black/50 rounded-full border-2 border-neon-blue/50 flex items-center justify-center">
-                  <span className="text-neon-blue text-3xl font-mono">AS</span>
+                <div className="w-32 h-32 mx-auto mb-4 bg-cyberpunk-black/50 rounded-full border-2 border-neon-blue/50 flex items-center justify-center overflow-hidden">
+                  <img src={alexAvatar} alt="Alex Satoshi" className="w-full h-full object-cover" />
                 </div>
                 <h3 className="text-white font-display">Alex Satoshi</h3>
                 <p className="text-foreground/70 font-mono text-sm">Founder & Protocol Architect</p>
               </div>
               
               <div className="text-center">
-                <div className="w-24 h-24 mx-auto mb-4 bg-cyberpunk-black/50 rounded-full border-2 border-neon-blue/50 flex items-center justify-center">
-                  <span className="text-neon-blue text-3xl font-mono">MK</span>
+                <div className="w-32 h-32 mx-auto mb-4 bg-cyberpunk-black/50 rounded-full border-2 border-purple-400/50 flex items-center justify-center overflow-hidden">
+                  <img src={miaAvatar} alt="Mia Kusanagi" className="w-full h-full object-cover" />
                 </div>
                 <h3 className="text-white font-display">Mia Kusanagi</h3>
                 <p className="text-foreground/70 font-mono text-sm">AI Research Lead</p>
               </div>
               
               <div className="text-center">
-                <div className="w-24 h-24 mx-auto mb-4 bg-cyberpunk-black/50 rounded-full border-2 border-neon-blue/50 flex items-center justify-center">
-                  <span className="text-neon-blue text-3xl font-mono">RT</span>
+                <div className="w-32 h-32 mx-auto mb-4 bg-cyberpunk-black/50 rounded-full border-2 border-neon-blue/50 flex items-center justify-center overflow-hidden">
+                  <img src={rayAvatar} alt="Ray Takemoto" className="w-full h-full object-cover" />
                 </div>
                 <h3 className="text-white font-display">Ray Takemoto</h3>
                 <p className="text-foreground/70 font-mono text-sm">Security & Systems Engineer</p>
