@@ -111,10 +111,10 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1 font-display">
-                      <BinaryText>Lightning-Fast Speed</BinaryText>
+                      <BinaryText>Decentralized Identity</BinaryText>
                     </h3>
                     <p className="text-foreground/80 font-mono text-sm">
-                      Process over 100,000 transactions per second with near-zero latency
+                      Sistem DID yang menjamin keamanan dan anonimitas pengguna dalam berkolaborasi di komunitas AI
                     </p>
                   </div>
                 </div>
@@ -137,10 +137,10 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1 font-display">
-                      <BinaryText>AI Optimization</BinaryText>
+                      <BinaryText>Community-Driven Research</BinaryText>
                     </h3>
                     <p className="text-foreground/80 font-mono text-sm">
-                      Advanced neural networks continuously optimize network performance based on real-time conditions
+                      Kolaborasi terbuka untuk riset AI berbasis prinsip ilmiah kognitif dengan partisipasi global
                     </p>
                   </div>
                 </div>

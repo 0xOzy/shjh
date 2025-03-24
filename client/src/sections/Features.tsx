@@ -28,25 +28,13 @@ export default function Features() {
     {
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Ultra-Fast Processing",
-      description: "Our proprietary algorithm achieves sub-millisecond transaction speeds through parallel processing and optimized network pathways, enabling real-time applications previously thought impossible.",
-      stat: "PERFORMANCE: ",
-      statValue: "4.3ms average",
-      statColor: "text-success"
-    },
-    {
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
-        </svg>
-      ),
-      title: "Decentralized Stability",
-      description: "Built on a globally distributed network of nodes, Shojo maintains unwavering stability even during major network disruptions. Our mesh architecture ensures no single point of failure exists.",
-      stat: "NODES ACTIVE: ",
-      statValue: "10,234",
+      title: "Shojo AI Agent",
+      description: "Model AI berbasis kognisi yang dirancang untuk memahami dan memproses informasi secara mendalam, melampaui kemampuan model bahasa konvensional dengan pemahaman kontekstual yang lebih kaya.",
+      stat: "MODEL VERSION: ",
+      statValue: "COGNITIVE v1.3",
       statColor: "text-success"
     },
     {
@@ -55,8 +43,8 @@ export default function Features() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
         </svg>
       ),
-      title: "AI-Powered Security",
-      description: "Our advanced AI security system monitors network activity in real-time, identifying and neutralizing threats before they can impact performance. Enhanced with quantum-resistant encryption protocols.",
+      title: "Private & Secure",
+      description: "Sistem DID (Decentralized Identity) dan enkripsi end-to-end yang memastikan anonimitas dalam komunitas AI, melindungi data pribadi sekaligus memungkinkan kolaborasi aman.",
       stat: "SECURITY STATUS: ",
       statValue: "OPTIMAL",
       statColor: "text-success"
@@ -64,25 +52,37 @@ export default function Features() {
     {
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "Cross-Chain Compatibility",
-      description: "Seamlessly integrate with all major blockchain networks through our universal adapter system. Shojo bridges disparate networks, enabling frictionless data and value transfer across ecosystems.",
-      stat: "CHAINS SUPPORTED: ",
-      statValue: "17",
+      title: "Community-Driven Research",
+      description: "Kolaborasi terbuka untuk riset AI berbasis prinsip ilmiah. Platform di mana peneliti, akademisi, dan pengembang dapat bertukar ide dan berkontribusi pada kemajuan AI kognitif.",
+      stat: "ACTIVE RESEARCHERS: ",
+      statValue: "100+",
       statColor: "text-success"
     },
     {
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
-      title: "Dynamic Scalability",
-      description: "Automatically scales resources based on network demand, ensuring consistent performance during peak usage. Our elastic infrastructure expands and contracts without manual intervention.",
-      stat: "CURRENT LOAD: ",
-      statValue: "28%",
+      title: "Decentralized AI Development",
+      description: "Menerapkan metode pengembangan AI tanpa ketergantungan pada satu entitas pusat, memungkinkan inovasi yang lebih cepat dan konsensus yang lebih demokratis tentang arah penelitian.",
+      stat: "NODES: ",
+      statValue: "Distributed",
+      statColor: "text-success"
+    },
+    {
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.871 4A17.926 17.926 0 003 12c0 2.874.673 5.59 1.871 8m14.13-12a17.926 17.926 0 001.87 8M9 6l3 1m0 0l3-1m-3 1v7.5M9 18l3-1m0 0l3 1m-3-1v-7.5" />
+        </svg>
+      ),
+      title: "Biological Neural Models",
+      description: "Arsitektur AI yang terinspirasi biologi, dikembangkan untuk meniru aspek-aspek kognisi manusia seperti memori semantik, intuisi, dan pembelajaran adaptif untuk pemahaman yang lebih mendalam.",
+      stat: "MODEL ACCURACY: ",
+      statValue: "93.7%",
       statColor: "text-success"
     },
     {
@@ -91,10 +91,10 @@ export default function Features() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
         </svg>
       ),
-      title: "Developer Toolkit",
-      description: "Comprehensive SDK with intuitive APIs and smart contract templates enables rapid development. Build and deploy secure applications in a fraction of the time required by traditional methods.",
-      stat: "API RESPONSE: ",
-      statValue: "2.1ms",
+      title: "Open Research Platform",
+      description: "Platform yang menyediakan alat, data, dan sumber daya untuk penelitian AI kognitif, dengan fitur publikasi, peer review, dan reproduksi hasil penelitian untuk transparansi dan kemajuan kolektif.",
+      stat: "PAPERS PUBLISHED: ",
+      statValue: "42",
       statColor: "text-success"
     }
   ];

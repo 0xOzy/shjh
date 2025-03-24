@@ -42,24 +42,24 @@ export default function Roadmap() {
                 </h3>
                 <CyberpunkCard className="p-4">
                   <p className="text-foreground/80 font-mono text-sm mb-3">
-                    Establishing the core infrastructure and fundamental technologies
+                    Mengembangkan fondasi riset AI kognitif dan komunitas pendukungnya
                   </p>
                   <ul className="text-foreground/70 font-mono text-xs space-y-2">
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Core Protocol Development
+                      <span className="text-success mr-2">✓</span> Pengembangan Model Dasar Berbasis Kognisi
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Security Architecture Implementation
+                      <span className="text-success mr-2">✓</span> Implementasi Arsitektur DID (Decentralized Identity)
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Initial Network Deployment
+                      <span className="text-success mr-2">✓</span> Pengaturan Platform Kolaborasi Aman
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> AI Integration Framework
+                      <span className="text-success mr-2">✓</span> Framework Riset Terbuka
                     </li>
                   </ul>
                   <div className="mt-3 text-right">
-                    <span className="text-xs font-mono text-neon-blue">COMPLETED Q2 2023</span>
+                    <span className="text-xs font-mono text-neon-blue">COMPLETED Q2 2024</span>
                   </div>
                 </CyberpunkCard>
               </div>
@@ -93,24 +93,24 @@ export default function Roadmap() {
                 </h3>
                 <CyberpunkCard className="p-4">
                   <p className="text-foreground/80 font-mono text-sm mb-3">
-                    Scaling the network and enhancing interoperability capabilities
+                    Memperluas jangkauan penelitian dan mengembangkan kemampuan model AI kognitif
                   </p>
                   <ul className="text-foreground/70 font-mono text-xs space-y-2">
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Global Node Expansion
+                      <span className="text-success mr-2">✓</span> Ekspansi Komunitas Global
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Cross-Chain Compatibility
+                      <span className="text-success mr-2">✓</span> Pengembangan Model Multimodal
                     </li>
                     <li className="flex items-center">
-                      <span className="text-warning mr-2">⟳</span> Developer SDK Release
+                      <span className="text-warning mr-2">⟳</span> Pengembangan SDK Peneliti
                     </li>
                     <li className="flex items-center">
-                      <span className="text-warning mr-2">⟳</span> Enterprise Integration Solutions
+                      <span className="text-warning mr-2">⟳</span> Implementasi Sistem Publikasi Terdesentralisasi
                     </li>
                   </ul>
                   <div className="mt-3">
-                    <span className="text-xs font-mono text-neon-blue">IN PROGRESS - Q3 2023</span>
+                    <span className="text-xs font-mono text-neon-blue">IN PROGRESS - Q3 2024</span>
                   </div>
                 </CyberpunkCard>
               </div>
@@ -132,24 +132,24 @@ export default function Roadmap() {
                 </h3>
                 <CyberpunkCard className="p-4">
                   <p className="text-foreground/80 font-mono text-sm mb-3">
-                    Advanced AI enhancements and performance optimizations
+                    Pengembangan model AI kognitif lanjutan dengan kemampuan adaptasi dan penalaran
                   </p>
                   <ul className="text-foreground/70 font-mono text-xs space-y-2">
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> AI Autonomous Network Management
+                      <span className="text-foreground/50 mr-2">○</span> Sistem Kognitif Adaptif Mandiri
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Quantum-Resistant Security Upgrade
+                      <span className="text-foreground/50 mr-2">○</span> Integrasi DID Quantum-Resistant
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Advanced Analytics Platform
+                      <span className="text-foreground/50 mr-2">○</span> Platform Analitik Riset AI Lanjutan
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Self-Healing Network Protocols
+                      <span className="text-foreground/50 mr-2">○</span> Protokol Self-Repair untuk Model AI
                     </li>
                   </ul>
                   <div className="mt-3 text-right">
-                    <span className="text-xs font-mono text-neon-blue">PLANNED - Q4 2023</span>
+                    <span className="text-xs font-mono text-neon-blue">PLANNED - Q4 2024</span>
                   </div>
                 </CyberpunkCard>
               </div>
@@ -183,24 +183,24 @@ export default function Roadmap() {
                 </h3>
                 <CyberpunkCard className="p-4">
                   <p className="text-foreground/80 font-mono text-sm mb-3">
-                    Next-generation features and revolutionary capabilities
+                    Realisasi AGI berbasis kognisi dengan pemahaman kontekstual kompleks dan agensi mandiri
                   </p>
                   <ul className="text-foreground/70 font-mono text-xs space-y-2">
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Decentralized AI Governance
+                      <span className="text-foreground/50 mr-2">○</span> Tata Kelola AI Terdesentralisasi
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Predictive Network Optimization
+                      <span className="text-foreground/50 mr-2">○</span> Model Kognitif Berbasis Kompleksitas
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Universal Protocol Standard
+                      <span className="text-foreground/50 mr-2">○</span> Standar Protokol AI Kognitif Terbuka
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Shojo 2.0 Infrastructure
+                      <span className="text-foreground/50 mr-2">○</span> Infrastruktur Shojo AGI 2.0
                     </li>
                   </ul>
                   <div className="mt-3">
-                    <span className="text-xs font-mono text-neon-blue">FUTURE - Q2 2024</span>
+                    <span className="text-xs font-mono text-neon-blue">FUTURE - Q1 2025</span>
                   </div>
                 </CyberpunkCard>
               </div>
