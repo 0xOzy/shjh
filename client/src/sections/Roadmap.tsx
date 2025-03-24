@@ -19,7 +19,7 @@ export default function Roadmap() {
           </h2>
           <div className="w-24 h-1 bg-neon-blue mx-auto my-4"></div>
           <p className="text-foreground max-w-2xl mx-auto font-mono">
-            Our strategic vision for the evolution of the Shojo protocol
+            Our strategic vision for the evolution of Shojo AI and Community Platform
           </p>
         </motion.div>
 
@@ -42,24 +42,24 @@ export default function Roadmap() {
                 </h3>
                 <CyberpunkCard className="p-4">
                   <p className="text-foreground/80 font-mono text-sm mb-3">
-                    Mengembangkan fondasi riset AI kognitif dan komunitas pendukungnya
+                    Initial development of AI models for market and sector analysis
                   </p>
                   <ul className="text-foreground/70 font-mono text-xs space-y-2">
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Pengembangan Model Dasar Berbasis Kognisi
+                      <span className="text-success mr-2">✓</span> Core Crypto Market Analysis AI Models
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Implementasi Arsitektur DID (Decentralized Identity)
+                      <span className="text-success mr-2">✓</span> Implementation of DID Architecture
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Pengaturan Platform Kolaborasi Aman
+                      <span className="text-success mr-2">✓</span> Secure Collaboration Platform Setup
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Framework Riset Terbuka
+                      <span className="text-success mr-2">✓</span> Solana Integration Framework
                     </li>
                   </ul>
                   <div className="mt-3 text-right">
-                    <span className="text-xs font-mono text-neon-blue">COMPLETED Q2 2024</span>
+                    <span className="text-xs font-mono text-neon-blue">COMPLETED Q1 2025</span>
                   </div>
                 </CyberpunkCard>
               </div>
@@ -93,24 +93,24 @@ export default function Roadmap() {
                 </h3>
                 <CyberpunkCard className="p-4">
                   <p className="text-foreground/80 font-mono text-sm mb-3">
-                    Memperluas jangkauan penelitian dan mengembangkan kemampuan model AI kognitif
+                    Blockchain-based community chat platform with anonymity & DID integration
                   </p>
                   <ul className="text-foreground/70 font-mono text-xs space-y-2">
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Ekspansi Komunitas Global
+                      <span className="text-success mr-2">✓</span> Global Community Expansion
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Pengembangan Model Multimodal
+                      <span className="text-success mr-2">✓</span> Solana-based User Authentication
                     </li>
                     <li className="flex items-center">
-                      <span className="text-warning mr-2">⟳</span> Pengembangan SDK Peneliti
+                      <span className="text-warning mr-2">⟳</span> Themed Chat Rooms Development
                     </li>
                     <li className="flex items-center">
-                      <span className="text-warning mr-2">⟳</span> Implementasi Sistem Publikasi Terdesentralisasi
+                      <span className="text-warning mr-2">⟳</span> Custom Private Room Implementation
                     </li>
                   </ul>
                   <div className="mt-3">
-                    <span className="text-xs font-mono text-neon-blue">IN PROGRESS - Q3 2024</span>
+                    <span className="text-xs font-mono text-neon-blue">IN PROGRESS - Q3 2025</span>
                   </div>
                 </CyberpunkCard>
               </div>
@@ -132,24 +132,24 @@ export default function Roadmap() {
                 </h3>
                 <CyberpunkCard className="p-4">
                   <p className="text-foreground/80 font-mono text-sm mb-3">
-                    Pengembangan model AI kognitif lanjutan dengan kemampuan adaptasi dan penalaran
+                    Documentation & API for integrating Shojo AI Agent and developer tools
                   </p>
                   <ul className="text-foreground/70 font-mono text-xs space-y-2">
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Sistem Kognitif Adaptif Mandiri
+                      <span className="text-foreground/50 mr-2">○</span> Complete API Documentation
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Integrasi DID Quantum-Resistant
+                      <span className="text-foreground/50 mr-2">○</span> Quantum-Resistant DID Integration
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Platform Analitik Riset AI Lanjutan
+                      <span className="text-foreground/50 mr-2">○</span> Advanced Market Analysis Platform
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Protokol Self-Repair untuk Model AI
+                      <span className="text-foreground/50 mr-2">○</span> Project Integration Tools
                     </li>
                   </ul>
                   <div className="mt-3 text-right">
-                    <span className="text-xs font-mono text-neon-blue">PLANNED - Q4 2024</span>
+                    <span className="text-xs font-mono text-neon-blue">PLANNED - Q4 2025</span>
                   </div>
                 </CyberpunkCard>
               </div>
@@ -183,24 +183,24 @@ export default function Roadmap() {
                 </h3>
                 <CyberpunkCard className="p-4">
                   <p className="text-foreground/80 font-mono text-sm mb-3">
-                    Realisasi AGI berbasis kognisi dengan pemahaman kontekstual kompleks dan agensi mandiri
+                    Exploring AI models with biological intelligence capabilities and advanced features
                   </p>
                   <ul className="text-foreground/70 font-mono text-xs space-y-2">
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Tata Kelola AI Terdesentralisasi
+                      <span className="text-foreground/50 mr-2">○</span> Decentralized AI Governance
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Model Kognitif Berbasis Kompleksitas
+                      <span className="text-foreground/50 mr-2">○</span> Complexity-Based Cognitive Models
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Standar Protokol AI Kognitif Terbuka
+                      <span className="text-foreground/50 mr-2">○</span> Open Cognitive AI Protocol Standards
                     </li>
                     <li className="flex items-center">
-                      <span className="text-foreground/50 mr-2">○</span> Infrastruktur Shojo AGI 2.0
+                      <span className="text-foreground/50 mr-2">○</span> Shojo AGI 2.0 Infrastructure
                     </li>
                   </ul>
                   <div className="mt-3">
-                    <span className="text-xs font-mono text-neon-blue">FUTURE - Q1 2025</span>
+                    <span className="text-xs font-mono text-neon-blue">FUTURE - Q1 2026</span>
                   </div>
                 </CyberpunkCard>
               </div>

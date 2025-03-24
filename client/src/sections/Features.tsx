@@ -31,8 +31,8 @@ export default function Features() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Shojo AI Agent",
-      description: "Model AI berbasis kognisi yang dirancang untuk memahami dan memproses informasi secara mendalam, melampaui kemampuan model bahasa konvensional dengan pemahaman kontekstual yang lebih kaya.",
+      title: "Market Analysis AI",
+      description: "Analyzes crypto sentiment, market trends, and other financial sectors with cognitive intelligence capabilities to provide deeper insights than conventional statistical models.",
       stat: "MODEL VERSION: ",
       statValue: "COGNITIVE v1.3",
       statColor: "text-success"
@@ -43,10 +43,10 @@ export default function Features() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
         </svg>
       ),
-      title: "Private & Secure",
-      description: "Sistem DID (Decentralized Identity) dan enkripsi end-to-end yang memastikan anonimitas dalam komunitas AI, melindungi data pribadi sekaligus memungkinkan kolaborasi aman.",
-      stat: "SECURITY STATUS: ",
-      statValue: "OPTIMAL",
+      title: "Crypto Intelligence",
+      description: "Provides real-time insights on new tokens, blockchain trends, and recommendation entry, TP/SL prices with advanced pattern recognition and market modeling algorithms.",
+      stat: "ACCURACY: ",
+      statValue: "94.2%",
       statColor: "text-success"
     },
     {
@@ -55,10 +55,10 @@ export default function Features() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "Community-Driven Research",
-      description: "Kolaborasi terbuka untuk riset AI berbasis prinsip ilmiah. Platform di mana peneliti, akademisi, dan pengembang dapat bertukar ide dan berkontribusi pada kemajuan AI kognitif.",
-      stat: "ACTIVE RESEARCHERS: ",
-      statValue: "100+",
+      title: "Themed Chat Rooms",
+      description: "Each room in the Shojo community platform is dedicated to a specific discussion topic, enabling focused conversations and efficient information exchange about crypto markets and projects.",
+      stat: "ACTIVE ROOMS: ",
+      statValue: "78+",
       statColor: "text-success"
     },
     {
@@ -67,10 +67,10 @@ export default function Features() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
-      title: "Decentralized AI Development",
-      description: "Menerapkan metode pengembangan AI tanpa ketergantungan pada satu entitas pusat, memungkinkan inovasi yang lebih cepat dan konsensus yang lebih demokratis tentang arah penelitian.",
-      stat: "NODES: ",
-      statValue: "Distributed",
+      title: "Custom Private Rooms",
+      description: "Users can create private rooms with restricted access, perfect for project teams, investment groups, or specialized research communities focusing on specific crypto assets.",
+      stat: "PRIVACY LEVEL: ",
+      statValue: "E2E Encrypted",
       statColor: "text-success"
     },
     {
@@ -79,10 +79,10 @@ export default function Features() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.871 4A17.926 17.926 0 003 12c0 2.874.673 5.59 1.871 8m14.13-12a17.926 17.926 0 001.87 8M9 6l3 1m0 0l3-1m-3 1v7.5M9 18l3-1m0 0l3 1m-3-1v-7.5" />
         </svg>
       ),
-      title: "Biological Neural Models",
-      description: "Arsitektur AI yang terinspirasi biologi, dikembangkan untuk meniru aspek-aspek kognisi manusia seperti memori semantik, intuisi, dan pembelajaran adaptif untuk pemahaman yang lebih mendalam.",
-      stat: "MODEL ACCURACY: ",
-      statValue: "93.7%",
+      title: "Full Anonymity",
+      description: "No KYC, no identity verification, ensuring fully anonymous discussions through DID (Decentralized Identity) and blockchain-based access control for maximum privacy.",
+      stat: "USER VERIFICATION: ",
+      statValue: "DID Only",
       statColor: "text-success"
     },
     {
@@ -91,10 +91,10 @@ export default function Features() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
         </svg>
       ),
-      title: "Open Research Platform",
-      description: "Platform yang menyediakan alat, data, dan sumber daya untuk penelitian AI kognitif, dengan fitur publikasi, peer review, dan reproduksi hasil penelitian untuk transparansi dan kemajuan kolektif.",
-      stat: "PAPERS PUBLISHED: ",
-      statValue: "42",
+      title: "Integrated with AI",
+      description: "Discussions can receive real-time insights from Shojo AI Agent, providing market analysis, trend detection, and investment advice directly within conversation threads.",
+      stat: "RESPONSE TIME: ",
+      statValue: "<500ms",
       statColor: "text-success"
     }
   ];
@@ -115,7 +115,7 @@ export default function Features() {
           </h2>
           <div className="w-24 h-1 bg-neon-blue mx-auto my-4"></div>
           <p className="text-foreground max-w-2xl mx-auto font-mono">
-            Cutting-edge capabilities that set Shojo apart from conventional protocols
+            Key features of Shojo AI Agent and Chat Community Platform
           </p>
         </motion.div>
 

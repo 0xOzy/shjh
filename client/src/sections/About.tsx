@@ -85,10 +85,10 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1 font-display">
-                      <BinaryText>Biologically-Inspired AI</BinaryText>
+                      <BinaryText>Cognitive AI</BinaryText>
                     </h3>
                     <p className="text-foreground/80 font-mono text-sm">
-                      Model neural berbasis sistem kognisi yang meniru cara kerja otak manusia, bukan hanya statistik
+                      AI models that adapt and interpret naturally, beyond statistical analysis
                     </p>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ export default function About() {
                       <BinaryText>Decentralized Identity</BinaryText>
                     </h3>
                     <p className="text-foreground/80 font-mono text-sm">
-                      Sistem DID yang menjamin keamanan dan anonimitas pengguna dalam berkolaborasi di komunitas AI
+                      Utilizing DID for enhanced data security and user anonymity in our blockchain-based community
                     </p>
                   </div>
                 </div>
@@ -137,10 +137,10 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1 font-display">
-                      <BinaryText>Community-Driven Research</BinaryText>
+                      <BinaryText>Solana-Based Platform</BinaryText>
                     </h3>
                     <p className="text-foreground/80 font-mono text-sm">
-                      Kolaborasi terbuka untuk riset AI berbasis prinsip ilmiah kognitif dengan partisipasi global
+                      Leveraging Solana's speed and scalability for Shojo AI & its community infrastructure
                     </p>
                   </div>
                 </div>
