@@ -79,9 +79,6 @@ export default function NavBar() {
                 <a href="/documentation" className="font-mono text-white hover:text-neon-blue transition-colors">
                   <BinaryText>Documentation</BinaryText>
                 </a>
-                <a href="/social-media" className="font-mono text-white hover:text-neon-blue transition-colors">
-                  <BinaryText>Social Media</BinaryText>
-                </a>
               </>
             )}
           </div>
@@ -189,13 +186,6 @@ export default function NavBar() {
                       onClick={closeMobileMenu}
                     >
                       <BinaryText>Documentation</BinaryText>
-                    </a>
-                    <a 
-                      href="/social-media" 
-                      className="font-mono text-white hover:text-neon-blue transition-colors py-2"
-                      onClick={closeMobileMenu}
-                    >
-                      <BinaryText>Social Media</BinaryText>
                     </a>
                   </>
                 )}
