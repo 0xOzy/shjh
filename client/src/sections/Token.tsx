@@ -89,27 +89,29 @@ export default function Token() {
                 </p>
                 <p className="mb-1">
                   <span className="text-neon-purple">
-                    Initial Circulating Supply:
+                    Liquidity Pool (LP) :
                   </span>
-                  <span className="text-foreground">250,000,000 SHOJO</span>
+                  <span className="text-foreground">
+                    {" "}
+                    Auto Add & Lock with Pump.fun
+                  </span>
+                </p>
+
+                <p className="mb-1">
+                  <span className="text-neon-purple">Tax:</span>
+                  <span className="text-foreground">0%</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">
-                    Community Allocation:
-                  </span>
-                  <span className="text-foreground">40%</span>
+                  <span className="text-neon-purple">Presale Token:</span>
+                  <span className="text-foreground">No</span>
                 </p>
                 <p className="mb-1">
                   <span className="text-neon-purple">Development Fund:</span>
-                  <span className="text-foreground">25%</span>
-                </p>
-                <p className="mb-1">
-                  <span className="text-neon-purple">Team & Advisors:</span>
-                  <span className="text-foreground">15% (3-year vesting)</span>
+                  <span className="text-foreground">10%</span>
                 </p>
                 <p className="mb-1">
                   <span className="text-neon-purple">Ecosystem Growth:</span>
-                  <span className="text-foreground">20%</span>
+                  <span className="text-foreground">5%</span>
                 </p>
               </div>
 
@@ -128,44 +130,6 @@ export default function Token() {
                 </div>
                 <p className="text-xs text-foreground/70">
                   Verify on Solana Explorer before interacting with the contract
-                </p>
-              </div>
-
-              <div className="mb-6">
-                <p className="text-foreground mb-2">// GITHUB REPOSITORY</p>
-                <div className="flex items-center justify-between bg-cyberpunk-black/70 p-2 rounded border border-neon-blue/30 mb-2 font-mono text-sm overflow-hidden">
-                  <a
-                    href="https://github.com/ShojoCo"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-foreground hover:text-neon-blue transition-colors truncate"
-                  >
-                    https://github.com/ShojoCo
-                  </a>
-                  <a
-                    href="https://github.com/ShojoCo"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 text-neon-blue hover:text-white transition-colors"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      />
-                    </svg>
-                  </a>
-                </div>
-                <p className="text-xs text-foreground/70">
-                  Follow our open-source development progress in the Shojo Token
-                  section
                 </p>
               </div>
 
