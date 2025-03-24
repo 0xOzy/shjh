@@ -30,7 +30,7 @@ export default function Compliance() {
             </h1>
             <div className="w-24 h-1 bg-neon-blue mx-auto my-4"></div>
             <p className="text-foreground max-w-2xl mx-auto font-mono">
-              How Shojo adheres to global regulatory standards and frameworks
+              How Shojo AI Research Lab upholds ethical standards and adheres to global AI regulatory frameworks
             </p>
           </motion.div>
 

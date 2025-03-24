@@ -30,7 +30,7 @@ export default function Security() {
             </h1>
             <div className="w-24 h-1 bg-neon-blue mx-auto my-4"></div>
             <p className="text-foreground max-w-2xl mx-auto font-mono">
-              How we protect the Shojo protocol and your data with advanced security
+              How we protect the Shojo AI Research Lab platform and your data with advanced security measures
             </p>
           </motion.div>
 
@@ -41,8 +41,8 @@ export default function Security() {
               transition={{ duration: 0.6 }}
             >
               <TerminalWindow title="security_overview.sh" showTime>
-                <p className="text-neon-blue mb-2">$ <span className="text-foreground">shojo --security-details</span></p>
-                <p className="text-foreground mb-4">Loading Shojo security architecture details...</p>
+                <p className="text-neon-blue mb-2">$ <span className="text-foreground">shojo --research-platform-security</span></p>
+                <p className="text-foreground mb-4">Loading Shojo AI Research Lab security architecture details...</p>
                 <p className="text-success mb-4">Security overview initialized.</p>
                 
                 <div className="mb-6">
@@ -68,20 +68,20 @@ export default function Security() {
                 <div className="mb-6">
                   <p className="text-foreground mb-2">// KEY SECURITY FEATURES</p>
                   <p className="mb-1">
-                    <span className="text-neon-purple">Self-Healing Protocol:</span> 
-                    <span className="text-foreground">Automatic detection and repair of security vulnerabilities</span>
+                    <span className="text-neon-purple">Self-Healing System:</span> 
+                    <span className="text-foreground">Automatic detection and repair of security vulnerabilities in research infrastructure</span>
                   </p>
                   <p className="mb-1">
                     <span className="text-neon-purple">Adaptive Defense:</span> 
-                    <span className="text-foreground">AI-based pattern recognition that evolves to counter new threats</span>
+                    <span className="text-foreground">AI-based pattern recognition that evolves to counter new threats to research data</span>
                   </p>
                   <p className="mb-1">
-                    <span className="text-neon-purple">Decentralized Verification:</span> 
-                    <span className="text-foreground">All transactions verified across multiple nodes</span>
+                    <span className="text-neon-purple">Secure Compute Layer:</span> 
+                    <span className="text-foreground">All AI models run in isolated environments with access controls</span>
                   </p>
                   <p className="mb-1">
-                    <span className="text-neon-purple">Zero-Knowledge Proofs:</span> 
-                    <span className="text-foreground">Data verification without revealing sensitive information</span>
+                    <span className="text-neon-purple">Zero-Knowledge Processing:</span> 
+                    <span className="text-foreground">Training on sensitive data without exposing individual records</span>
                   </p>
                 </div>
                 
@@ -93,11 +93,15 @@ export default function Security() {
                   </p>
                   <p className="mb-1">
                     <span className="text-neon-purple">Compliance Framework:</span> 
-                    <span className="text-foreground">ISO 27001, SOC 2, GDPR, HIPAA compliant</span>
+                    <span className="text-foreground">ISO 27001, SOC 2, GDPR, HIPAA, and AI Ethics standards compliant</span>
+                  </p>
+                  <p className="mb-1">
+                    <span className="text-neon-purple">Research Ethics Oversight:</span> 
+                    <span className="text-foreground">Independent ethics committee reviews all research activities</span>
                   </p>
                   <p className="mb-1">
                     <span className="text-neon-purple">Bug Bounty Program:</span> 
-                    <span className="text-foreground">Active rewards for responsible disclosure</span>
+                    <span className="text-foreground">Active rewards for responsible disclosure of security vulnerabilities</span>
                   </p>
                 </div>
                 
@@ -123,7 +127,7 @@ export default function Security() {
                         <BinaryText>AI-Powered Threat Detection</BinaryText>
                       </h3>
                       <p className="text-foreground/80 font-mono text-sm">
-                        Our advanced neural networks analyze network patterns in real-time, identifying and neutralizing potential security threats before they can impact the system.
+                        Our advanced neural networks monitor research platform activities in real-time, identifying and neutralizing potential security threats before they can impact sensitive AI experiments or data.
                       </p>
                     </div>
                   </div>
@@ -147,7 +151,7 @@ export default function Security() {
                         <BinaryText>Quantum-Resistant Encryption</BinaryText>
                       </h3>
                       <p className="text-foreground/80 font-mono text-sm">
-                        Future-proof security using post-quantum cryptographic algorithms that can withstand attacks from both classical and quantum computers.
+                        Future-proof security using post-quantum cryptographic algorithms to protect our research data, AI models, and intellectual property from both current and next-generation computational threats.
                       </p>
                     </div>
                   </div>
@@ -168,10 +172,10 @@ export default function Security() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold mb-1 font-display">
-                        <BinaryText>Decentralized Security Model</BinaryText>
+                        <BinaryText>Secure Multi-Node Architecture</BinaryText>
                       </h3>
                       <p className="text-foreground/80 font-mono text-sm">
-                        Our distributed architecture ensures that security isn't dependent on a single point of control, making the system resistant to targeted attacks.
+                        Our distributed research computing infrastructure ensures redundancy and security isn't dependent on a single point of control, protecting AI experiments and models from targeted attacks.
                       </p>
                     </div>
                   </div>
@@ -192,10 +196,10 @@ export default function Security() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold mb-1 font-display">
-                        <BinaryText>Continuous Security Updates</BinaryText>
+                        <BinaryText>AI-Driven Security Evolution</BinaryText>
                       </h3>
                       <p className="text-foreground/80 font-mono text-sm">
-                        Our self-evolving security protocols automatically update to address emerging threats without disrupting network operations.
+                        Our self-evolving security protocols use AI to continuously learn from global threat patterns and automatically deploy countermeasures without disrupting ongoing research or experiments.
                       </p>
                     </div>
                   </div>
