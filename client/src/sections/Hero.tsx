@@ -20,8 +20,12 @@ export default function Hero() {
           >
             <h2 className="text-neon-blue text-xl mb-2 font-mono">// INTRODUCING</h2>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 font-display text-white">
-              <BinaryText className="inline-block">Shojo:</BinaryText>
-              <BinaryText className="block mt-2 text-neon-blue">The future of intelligence and secure AI collaboration.</BinaryText>
+              <span className="inline-block min-w-[120px]">
+                <BinaryText className="inline-block">Shojo:</BinaryText>
+              </span>
+              <div className="mt-2 min-h-[80px]">
+                <BinaryText className="block text-neon-blue">The future of intelligence and secure AI collaboration.</BinaryText>
+              </div>
             </h1>
             <p className="text-foreground mb-8 text-lg font-mono leading-relaxed">
               Shojo is an AI Research Lab & Community developing Shojo AI Agent, an AI system powered by 

@@ -60,10 +60,11 @@ export default function BinaryText({
   
   return (
     <motion.span
-      className={`${className} inline-block`}
+      className={`${className} inline-block overflow-hidden`}
       onMouseEnter={changeToComingSoon && hasChangedToComingSoon ? undefined : animateText}
       whileHover={{ scale: 1.02 }}
       transition={{ duration: 0.2 }}
+      style={{ minWidth: isAnimating ? `${textContent.length}ch` : 'auto' }}
     >
       {displayText}
     </motion.span>
