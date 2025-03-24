@@ -54,53 +54,59 @@ export default function TermsOfService() {
                 
                 <div>
                   <h2 className="text-xl text-neon-blue mb-2">3. User Responsibilities</h2>
-                  <p className="mb-1">As a user of Shojo, you agree to:</p>
+                  <p className="mb-1">As a user of the Shojo platform, you agree to:</p>
                   <ul className="list-disc list-inside pl-4 space-y-1">
-                    <li>Use the service in compliance with all applicable laws and regulations</li>
-                    <li>Maintain the security of your account credentials</li>
-                    <li>Not attempt to disrupt or compromise the integrity of the network</li>
-                    <li>Not use the service for any illegal or unauthorized purposes</li>
-                    <li>Not infringe upon the rights of others</li>
+                    <li>Use the platform in compliance with all applicable laws and regulations</li>
+                    <li>Maintain the security of your cryptographic keys and account credentials</li>
+                    <li>Not attempt to disrupt or compromise the integrity of the platform or community</li>
+                    <li>Not use our AI research tools for illegal, harmful, or unauthorized purposes</li>
+                    <li>Not misrepresent market information or manipulate community discussions</li>
+                    <li>Respect the pseudonymity and privacy of other community members</li>
+                    <li>Acknowledge that market analysis tools are for informational purposes only</li>
                   </ul>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">4. Intellectual Property</h2>
-                  <p>All content, code, and materials associated with Shojo are protected by intellectual property rights and belong to Shojo or its licensors. You may not copy, modify, distribute, or create derivative works without explicit permission.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">4. Intellectual Property & Research</h2>
+                  <p>All content, code, AI models, and materials associated with Shojo are protected by intellectual property rights and belong to Shojo AI Research Lab or its licensors. While we encourage community participation in research, you may not copy, modify, distribute, or create derivative works of our AI models and analysis tools without explicit permission.</p>
+                  <p className="mt-2">Community-contributed market insights and discussions remain the intellectual property of their contributors, though by sharing them on our platform, you grant us a non-exclusive license to use such contributions for research purposes.</p>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">5. Limitation of Liability</h2>
-                  <p>To the maximum extent permitted by law, Shojo and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the service or inability to access the service.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">5. Market Analysis & Financial Disclaimer</h2>
+                  <p>The AI market analysis, predictions, and insights provided through our platform are for informational purposes only and do not constitute financial advice. Crypto markets are volatile and unpredictable. You should always conduct your own research and consult with qualified financial advisors before making investment decisions.</p>
+                  
+                  <h2 className="text-xl text-neon-blue mb-2 mt-6">6. Limitation of Liability</h2>
+                  <p>To the maximum extent permitted by law, Shojo AI Research Lab and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our platform, including but not limited to financial losses resulting from reliance on market analysis or participation in community discussions.</p>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">6. Service Modifications</h2>
-                  <p>We reserve the right to modify, suspend, or discontinue any aspect of the Shojo protocol at any time, with or without notice. This includes changes to features, functionality, or service availability.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">7. Service Modifications</h2>
+                  <p>We reserve the right to modify, suspend, or discontinue any aspect of the Shojo platform at any time, with or without notice. This includes changes to our AI research algorithms, market analysis methodologies, community features, or platform availability.</p>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">7. Termination</h2>
-                  <p>We may terminate or suspend your access to Shojo immediately, without prior notice, for conduct that we believe violates these Terms of Service or is harmful to other users, us, or third parties, or for any other reason at our sole discretion.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">8. Termination</h2>
+                  <p>We may terminate or suspend your access to the Shojo platform immediately, without prior notice, for conduct that we believe violates these Terms of Service, such as spreading misinformation, harassment of community members, or attempting to manipulate market discussions. We reserve the right to remove any user from our platform at our sole discretion.</p>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">8. Governing Law</h2>
-                  <p>These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Shojo is registered, without regard to its conflict of law provisions.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">9. Governing Law</h2>
+                  <p>These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Shojo AI Research Lab is registered, without regard to its conflict of law provisions. Any disputes related to your use of our platform or AI research tools shall be resolved in the courts of that jurisdiction.</p>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">9. Changes to Terms</h2>
-                  <p>We may update these Terms of Service periodically. We will notify users of any material changes through appropriate channels. Your continued use of Shojo after such modifications constitutes your acceptance of the updated terms.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">10. Changes to Terms</h2>
+                  <p>We may update these Terms of Service periodically to reflect changes in our AI research methodologies, platform features, or legal requirements. We will notify community members of any material changes through our platform and communication channels. Your continued use of the Shojo platform after such modifications constitutes your acceptance of the updated terms.</p>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">10. Contact</h2>
-                  <p>If you have questions about these Terms, please contact us at <span className="text-neon-blue">legal@shojo.ai</span>.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">11. Contact</h2>
+                  <p>If you have questions about these Terms, our research methods, or platform policies, please contact our legal team at <span className="text-neon-blue">legal@shojo.ai</span> or through our secure communication channels on the platform.</p>
                 </div>
                 
                 <div>
-                  <p className="text-foreground/70">Last Updated: March 23, 2025</p>
+                  <p className="text-foreground/70">Last Updated: March 24, 2025</p>
                 </div>
               </div>
               
