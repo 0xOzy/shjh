@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useLocation } from "wouter";
 import BinaryText from "./BinaryText";
 import NeonButton from "./NeonButton";
 import ShojoLogo from "./ShojoLogo";
@@ -7,6 +8,8 @@ import ShojoLogo from "./ShojoLogo";
 export default function NavBar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [location] = useLocation();
+  const isHomePage = location === "/";
   
   useEffect(() => {
     const handleScroll = () => {
@@ -38,30 +41,50 @@ export default function NavBar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <ShojoLogo />
+            <a href="/" className="flex items-center">
+              <ShojoLogo />
+            </a>
           </div>
           
           {/* Desktop Nav Links */}
           <div className="hidden md:flex space-x-8 items-center">
-            <a href="#about" className="font-mono text-white hover:text-neon-blue transition-colors">
-              <BinaryText>About</BinaryText>
-            </a>
-            <a href="#features" className="font-mono text-white hover:text-neon-blue transition-colors">
-              <BinaryText>Features</BinaryText>
-            </a>
-            <a href="#stats" className="font-mono text-white hover:text-neon-blue transition-colors">
-              <BinaryText>Stats</BinaryText>
-            </a>
-            <a href="#roadmap" className="font-mono text-white hover:text-neon-blue transition-colors">
-              <BinaryText>Roadmap</BinaryText>
-            </a>
-            <a href="#token" className="font-mono text-white hover:text-neon-blue transition-colors">
-              <BinaryText>Token</BinaryText>
-            </a>
+            {!isHomePage && (
+              <a href="/" className="font-mono text-white hover:text-neon-blue transition-colors">
+                <BinaryText>Home</BinaryText>
+              </a>
+            )}
+            {isHomePage ? (
+              <>
+                <a href="#about" className="font-mono text-white hover:text-neon-blue transition-colors">
+                  <BinaryText>About</BinaryText>
+                </a>
+                <a href="#features" className="font-mono text-white hover:text-neon-blue transition-colors">
+                  <BinaryText>Features</BinaryText>
+                </a>
+                <a href="#stats" className="font-mono text-white hover:text-neon-blue transition-colors">
+                  <BinaryText>Stats</BinaryText>
+                </a>
+                <a href="#roadmap" className="font-mono text-white hover:text-neon-blue transition-colors">
+                  <BinaryText>Roadmap</BinaryText>
+                </a>
+                <a href="#token" className="font-mono text-white hover:text-neon-blue transition-colors">
+                  <BinaryText>Token</BinaryText>
+                </a>
+              </>
+            ) : (
+              <>
+                <a href="/about-us" className="font-mono text-white hover:text-neon-blue transition-colors">
+                  <BinaryText>About Us</BinaryText>
+                </a>
+                <a href="/documentation" className="font-mono text-white hover:text-neon-blue transition-colors">
+                  <BinaryText>Documentation</BinaryText>
+                </a>
+              </>
+            )}
           </div>
           
           {/* CTA Button */}
-          <NeonButton href="#get-started" primary className="hidden md:inline-block">
+          <NeonButton href={isHomePage ? "#get-started" : "/#get-started"} primary className="hidden md:inline-block">
             Get Started
           </NeonButton>
           
@@ -101,43 +124,73 @@ export default function NavBar() {
           >
             <div className="container mx-auto px-4 py-4">
               <div className="flex flex-col space-y-4">
-                <a 
-                  href="#about" 
-                  className="font-mono text-white hover:text-neon-blue transition-colors py-2"
-                  onClick={closeMobileMenu}
-                >
-                  <BinaryText>About</BinaryText>
-                </a>
-                <a 
-                  href="#features" 
-                  className="font-mono text-white hover:text-neon-blue transition-colors py-2"
-                  onClick={closeMobileMenu}
-                >
-                  <BinaryText>Features</BinaryText>
-                </a>
-                <a 
-                  href="#stats" 
-                  className="font-mono text-white hover:text-neon-blue transition-colors py-2"
-                  onClick={closeMobileMenu}
-                >
-                  <BinaryText>Stats</BinaryText>
-                </a>
-                <a 
-                  href="#roadmap" 
-                  className="font-mono text-white hover:text-neon-blue transition-colors py-2"
-                  onClick={closeMobileMenu}
-                >
-                  <BinaryText>Roadmap</BinaryText>
-                </a>
-                <a 
-                  href="#token" 
-                  className="font-mono text-white hover:text-neon-blue transition-colors py-2"
-                  onClick={closeMobileMenu}
-                >
-                  <BinaryText>Token</BinaryText>
-                </a>
+                {!isHomePage && (
+                  <a 
+                    href="/" 
+                    className="font-mono text-white hover:text-neon-blue transition-colors py-2"
+                    onClick={closeMobileMenu}
+                  >
+                    <BinaryText>Home</BinaryText>
+                  </a>
+                )}
+                {isHomePage ? (
+                  <>
+                    <a 
+                      href="#about" 
+                      className="font-mono text-white hover:text-neon-blue transition-colors py-2"
+                      onClick={closeMobileMenu}
+                    >
+                      <BinaryText>About</BinaryText>
+                    </a>
+                    <a 
+                      href="#features" 
+                      className="font-mono text-white hover:text-neon-blue transition-colors py-2"
+                      onClick={closeMobileMenu}
+                    >
+                      <BinaryText>Features</BinaryText>
+                    </a>
+                    <a 
+                      href="#stats" 
+                      className="font-mono text-white hover:text-neon-blue transition-colors py-2"
+                      onClick={closeMobileMenu}
+                    >
+                      <BinaryText>Stats</BinaryText>
+                    </a>
+                    <a 
+                      href="#roadmap" 
+                      className="font-mono text-white hover:text-neon-blue transition-colors py-2"
+                      onClick={closeMobileMenu}
+                    >
+                      <BinaryText>Roadmap</BinaryText>
+                    </a>
+                    <a 
+                      href="#token" 
+                      className="font-mono text-white hover:text-neon-blue transition-colors py-2"
+                      onClick={closeMobileMenu}
+                    >
+                      <BinaryText>Token</BinaryText>
+                    </a>
+                  </>
+                ) : (
+                  <>
+                    <a 
+                      href="/about-us" 
+                      className="font-mono text-white hover:text-neon-blue transition-colors py-2"
+                      onClick={closeMobileMenu}
+                    >
+                      <BinaryText>About Us</BinaryText>
+                    </a>
+                    <a 
+                      href="/documentation" 
+                      className="font-mono text-white hover:text-neon-blue transition-colors py-2"
+                      onClick={closeMobileMenu}
+                    >
+                      <BinaryText>Documentation</BinaryText>
+                    </a>
+                  </>
+                )}
                 <NeonButton 
-                  href="#get-started" 
+                  href={isHomePage ? "#get-started" : "/#get-started"} 
                   primary 
                   className="w-full text-center mt-4"
                   onClick={closeMobileMenu}

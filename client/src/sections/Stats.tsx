@@ -64,7 +64,7 @@ export default function Stats() {
           </h2>
           <div className="w-24 h-1 bg-neon-blue mx-auto my-4"></div>
           <p className="text-foreground max-w-2xl mx-auto font-mono">
-            Real-time data dari penelitian dan pengembangan model AI kognitif
+            Real-time data from research and development of cognitive AI models
           </p>
         </motion.div>
 
@@ -92,11 +92,11 @@ export default function Stats() {
                 </p>
                 <p className="mb-1">
                   <span className="text-neon-purple">Training Duration:</span> 
-                  <span className="text-foreground">342 hari, 7 jam, 23 menit</span>
+                  <span className="text-foreground">342 days, 7 hours, 23 minutes</span>
                 </p>
                 <p className="mb-1">
                   <span className="text-neon-purple">Last Parameter Update:</span> 
-                  <span className="text-foreground">3 hari yang lalu</span>
+                  <span className="text-foreground">3 days ago</span>
                 </p>
               </div>
               
@@ -104,7 +104,7 @@ export default function Stats() {
                 <p className="text-foreground mb-2">// MODEL PERFORMANCE</p>
                 <p className="mb-1">
                   <span className="text-neon-purple">Parameter Count:</span> 
-                  <span className="text-foreground">87.3 milyar</span>
+                  <span className="text-foreground">87.3 billion</span>
                   <span className="text-success ml-2">↑ 12.5%</span>
                 </p>
                 <p className="mb-1">
@@ -116,7 +116,7 @@ export default function Stats() {
                   <span className="text-foreground">100K tokens</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Utilisasi GPU:</span> 
+                  <span className="text-neon-purple">GPU Utilization:</span> 
                   <span className="text-foreground">{networkLoad}%</span>
                 </p>
               </div>
@@ -183,7 +183,7 @@ export default function Stats() {
                 </h3>
                 <div className="bg-cyberpunk-black/50 border border-neon-blue/20 rounded-lg p-4 h-64 flex items-center justify-center">
                   <div className="text-center w-full h-full">
-                    <p className="text-foreground/70 font-mono text-sm mb-2">Model Kognitif Hierarkis</p>
+                    <p className="text-foreground/70 font-mono text-sm mb-2">Hierarchical Cognitive Model</p>
                     <NetworkVisualization />
                   </div>
                 </div>
@@ -297,23 +297,34 @@ function NetworkVisualization() {
         ))}
       </g>
       
+      {/* Hierarchical Layers Labels */}
+      <g className="font-mono" fontSize="6" opacity="0.8">
+        <text x="10" y="45" fill="#00F0FF">INPUT LAYER</text>
+        <text x="10" y="125" fill="#00F0FF">HIDDEN LAYER</text>
+        <text x="10" y="200" fill="#00F0FF">OUTPUT LAYER</text>
+      </g>
+      
       {/* Network nodes */}
       {[
-        { x: 50, y: 50, size: 6, pulse: 3 },
-        { x: 150, y: 70, size: 8, pulse: 4 },
-        { x: 250, y: 30, size: 5, pulse: 2.5 },
-        { x: 350, y: 80, size: 7, pulse: 3.5 },
-        { x: 70, y: 150, size: 7, pulse: 4.5 },
-        { x: 200, y: 120, size: 10, pulse: 5 },
-        { x: 300, y: 180, size: 6, pulse: 3 },
-        { x: 380, y: 200, size: 5, pulse: 2.8 },
+        // Input layer
+        { x: 50, y: 50, size: 6, pulse: 3, type: "input" },
+        { x: 150, y: 70, size: 8, pulse: 4, type: "input" },
+        { x: 250, y: 30, size: 5, pulse: 2.5, type: "input" },
+        { x: 350, y: 80, size: 7, pulse: 3.5, type: "input" },
+        // Hidden layer (cognitive processing)
+        { x: 70, y: 150, size: 7, pulse: 4.5, type: "hidden" },
+        { x: 200, y: 120, size: 10, pulse: 5, type: "hidden" },
+        // Output layer
+        { x: 300, y: 180, size: 6, pulse: 3, type: "output" },
+        { x: 380, y: 200, size: 5, pulse: 2.8, type: "output" },
       ].map((node, i) => (
         <g key={`node-${i}`}>
           <circle 
             cx={node.x} 
             cy={node.y} 
             r={node.size} 
-            fill="#00F0FF" 
+            fill={node.type === "hidden" ? "#9D4EDD" : 
+                 node.type === "output" ? "#F72585" : "#00F0FF"} 
             opacity="0.8"
           >
             <animate attributeName="opacity" values="0.8;0.2;0.8" dur={`${node.pulse}s`} repeatCount="indefinite"/>
@@ -322,7 +333,8 @@ function NetworkVisualization() {
             cx={node.x} 
             cy={node.y} 
             r={node.size * 2} 
-            stroke="#00F0FF" 
+            stroke={node.type === "hidden" ? "#9D4EDD" : 
+                   node.type === "output" ? "#F72585" : "#00F0FF"} 
             strokeWidth="0.5" 
             fill="none" 
             opacity="0.3"
@@ -333,48 +345,55 @@ function NetworkVisualization() {
         </g>
       ))}
       
-      {/* Connection lines */}
+      {/* Connection lines - hierarchical structure */}
       <g opacity="0.6">
-        <line x1="50" y1="50" x2="150" y2="70" stroke="#00F0FF" strokeWidth="0.5">
+        {/* Input to hidden layer connections */}
+        <line x1="50" y1="50" x2="200" y2="120" stroke="#00F0FF" strokeWidth="0.5">
           <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3s" repeatCount="indefinite"/>
         </line>
-        <line x1="150" y1="70" x2="250" y2="30" stroke="#00F0FF" strokeWidth="0.5">
+        <line x1="150" y1="70" x2="200" y2="120" stroke="#00F0FF" strokeWidth="0.5">
           <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
         </line>
-        <line x1="250" y1="30" x2="350" y2="80" stroke="#00F0FF" strokeWidth="0.5">
+        <line x1="250" y1="30" x2="200" y2="120" stroke="#00F0FF" strokeWidth="0.5">
           <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.5s" repeatCount="indefinite"/>
         </line>
-        <line x1="70" y1="150" x2="200" y2="120" stroke="#00F0FF" strokeWidth="0.5">
+        <line x1="350" y1="80" x2="200" y2="120" stroke="#00F0FF" strokeWidth="0.5">
           <animate attributeName="opacity" values="0.6;0.1;0.6" dur="4s" repeatCount="indefinite"/>
         </line>
-        <line x1="200" y1="120" x2="300" y2="180" stroke="#00F0FF" strokeWidth="0.5">
+        <line x1="50" y1="50" x2="70" y2="150" stroke="#00F0FF" strokeWidth="0.5">
           <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
         </line>
-        <line x1="300" y1="180" x2="380" y2="200" stroke="#00F0FF" strokeWidth="0.5">
+        <line x1="150" y1="70" x2="70" y2="150" stroke="#00F0FF" strokeWidth="0.5">
           <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.5s" repeatCount="indefinite"/>
         </line>
-        <line x1="50" y1="50" x2="70" y2="150" stroke="#00F0FF" strokeWidth="0.5">
+        
+        {/* Hidden to output layer connections */}
+        <line x1="70" y1="150" x2="300" y2="180" stroke="#9D4EDD" strokeWidth="0.5">
           <animate attributeName="opacity" values="0.6;0.1;0.6" dur="4.5s" repeatCount="indefinite"/>
         </line>
-        <line x1="150" y1="70" x2="200" y2="120" stroke="#00F0FF" strokeWidth="0.5">
+        <line x1="70" y1="150" x2="380" y2="200" stroke="#9D4EDD" strokeWidth="0.5">
           <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.8s" repeatCount="indefinite"/>
         </line>
-        <line x1="250" y1="30" x2="200" y2="120" stroke="#00F0FF" strokeWidth="0.5">
+        <line x1="200" y1="120" x2="300" y2="180" stroke="#9D4EDD" strokeWidth="0.5">
           <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.2s" repeatCount="indefinite"/>
         </line>
-        <line x1="350" y1="80" x2="300" y2="180" stroke="#00F0FF" strokeWidth="0.5">
+        <line x1="200" y1="120" x2="380" y2="200" stroke="#9D4EDD" strokeWidth="0.5">
           <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.3s" repeatCount="indefinite"/>
         </line>
       </g>
       
-      {/* Data packets */}
+      {/* Data packets - showing data flow through neural network */}
       {[
-        { x1: 50, y1: 50, x2: 150, y2: 70, duration: 3 },
-        { x1: 150, y1: 70, x2: 250, y2: 30, duration: 4 },
-        { x1: 200, y1: 120, x2: 300, y2: 180, duration: 3 },
-        { x1: 70, y1: 150, x2: 200, y2: 120, duration: 4 },
+        // Input to hidden
+        { x1: 50, y1: 50, x2: 200, y2: 120, duration: 2, color: "#00F0FF" },
+        { x1: 150, y1: 70, x2: 70, y2: 150, duration: 2.5, color: "#00F0FF" },
+        { x1: 250, y1: 30, x2: 200, y2: 120, duration: 3, color: "#00F0FF" },
+        { x1: 350, y1: 80, x2: 200, y2: 120, duration: 2.2, color: "#00F0FF" },
+        // Hidden to output
+        { x1: 200, y1: 120, x2: 300, y2: 180, duration: 2.8, color: "#9D4EDD" },
+        { x1: 70, y1: 150, x2: 380, y2: 200, duration: 3.2, color: "#9D4EDD" },
       ].map((packet, i) => (
-        <circle key={`packet-${i}`} r="2" fill="#9D4EDD">
+        <circle key={`packet-${i}`} r="2" fill={packet.color}>
           <animateMotion
             path={`M${packet.x1},${packet.y1} L${packet.x2},${packet.y2}`}
             dur={`${packet.duration}s`}
@@ -383,29 +402,32 @@ function NetworkVisualization() {
         </circle>
       ))}
       
-      {/* Binary code text */}
+      {/* Binary code text - cognitive processing visual */}
       <g className="font-mono" fontSize="6" opacity="0.7">
         <text x="40" y="40" fill="#00F0FF">01001</text>
         <text x="140" y="60" fill="#00F0FF">10110</text>
         <text x="240" y="20" fill="#00F0FF">11001</text>
         <text x="340" y="70" fill="#00F0FF">01010</text>
-        <text x="60" y="140" fill="#00F0FF">10101</text>
-        <text x="190" y="110" fill="#00F0FF">11100</text>
-        <text x="290" y="170" fill="#00F0FF">00111</text>
-        <text x="370" y="190" fill="#00F0FF">10011</text>
+        <text x="60" y="140" fill="#9D4EDD">10101</text>
+        <text x="190" y="110" fill="#9D4EDD">11100</text>
+        <text x="290" y="170" fill="#F72585">00111</text>
+        <text x="370" y="190" fill="#F72585">10011</text>
       </g>
       
-      {/* Central node pulse */}
+      {/* Central node pulse - primary cognitive processing node */}
       <circle cx="200" cy="120" r="20" fill="url(#pulse-gradient)" opacity="0.3">
         <animate attributeName="r" values="15;25;15" dur="5s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0.3;0.1;0.3" dur="5s" repeatCount="indefinite"/>
       </circle>
       
+      {/* Model Label */}
+      <text x="200" y="220" fill="#FFFFFF" fontSize="8" textAnchor="middle" className="font-mono">HIERARCHICAL COGNITIVE MODEL v1.3.7</text>
+      
       {/* Gradients */}
       <defs>
         <radialGradient id="pulse-gradient" cx="0.5" cy="0.5" r="0.5">
-          <stop offset="0%" stopColor="#00F0FF" stopOpacity="0.8"/>
-          <stop offset="100%" stopColor="#00F0FF" stopOpacity="0"/>
+          <stop offset="0%" stopColor="#9D4EDD" stopOpacity="0.8"/>
+          <stop offset="100%" stopColor="#9D4EDD" stopOpacity="0"/>
         </radialGradient>
       </defs>
     </svg>

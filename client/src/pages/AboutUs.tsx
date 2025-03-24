@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import BinaryText from "@/components/BinaryText";
 import TerminalWindow from "@/components/TerminalWindow";
 import CyberpunkCard from "@/components/CyberpunkCard";
+import NavBar from "@/components/NavBar";
+import Footer from "@/sections/Footer";
 import alexAvatar from "@/assets/team-alex.svg";
 import miaAvatar from "@/assets/team-mia.svg";
 import rayAvatar from "@/assets/team-ray.svg";
@@ -9,6 +11,7 @@ import rayAvatar from "@/assets/team-ray.svg";
 export default function AboutUs() {
   return (
     <div className="bg-cyberpunk-black min-h-screen">
+      <NavBar />
       <div className="container mx-auto px-4 py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -144,6 +147,7 @@ export default function AboutUs() {
           </div>
         </motion.div>
       </div>
+      <Footer />
     </div>
   );
 }
