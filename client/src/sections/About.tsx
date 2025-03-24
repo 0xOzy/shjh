@@ -47,23 +47,22 @@ export default function About() {
             <TerminalWindow title="about.shojo">
               <p className="text-neon-blue mb-2">$ <span className="text-foreground">info --about Shojo</span></p>
               <p className="text-foreground mb-4">
-                <span className="text-neon-purple">Shojo</span> is a <span className="text-neon-blue">next-generation decentralized protocol</span> built to address the critical challenges
-                facing today's networks: stability, speed, and security.
+                <span className="text-neon-purple">Shojo</span> bukan sekadar organisasi riset <span className="text-neon-blue">AI biasa</span>. Kami percaya bahwa <span className="text-neon-blue">Artificial General Intelligence (AGI)</span> harus dikembangkan berdasarkan prinsip ilmiah yang mendasar, bukan sekadar model statistik berbasis data besar.
               </p>
-              <p className="text-neon-blue mb-2">$ <span className="text-foreground">cat core_strengths.txt</span></p>
-              <p className="text-foreground mb-1">// CORE STRENGTHS:</p>
+              <p className="text-neon-blue mb-2">$ <span className="text-foreground">cat pendekatan_kami.txt</span></p>
+              <p className="text-foreground mb-1">// PENDEKATAN KAMI:</p>
               <ul className="list-disc list-inside mb-4 pl-4">
-                <li className="mb-1"><span className="text-neon-blue">Ultra-Fast Processing:</span> Optimized transactions with sub-millisecond confirmations</li>
-                <li className="mb-1"><span className="text-neon-blue">Decentralized Architecture:</span> Distributed across 10,000+ nodes for unmatched reliability</li>
-                <li className="mb-1"><span className="text-neon-blue">AI-Powered Intelligence:</span> Self-optimizing system that adapts to network conditions</li>
-                <li className="mb-1"><span className="text-neon-blue">Enhanced Security:</span> Military-grade encryption with real-time threat monitoring</li>
+                <li className="mb-1"><span className="text-neon-blue">Neural Architectures Inspired by Biology:</span> Mengembangkan sistem yang meniru memori semantik, pemrosesan saraf, dan adaptasi evolusioner</li>
+                <li className="mb-1"><span className="text-neon-blue">AI & Cognitive Science:</span> Membangun AI yang benar-benar bisa berpikir, bukan hanya mencocokkan pola</li>
+                <li className="mb-1"><span className="text-neon-blue">Decentralized & Secure:</span> Komunitas berbasis DID (Decentralized Identity), memastikan keamanan dan anonimitas pengguna</li>
+                <li className="mb-1"><span className="text-neon-blue">Community Research:</span> Kolaborasi global untuk memajukan pemahaman tentang kognisi dan intelegensi</li>
               </ul>
-              <p className="text-neon-blue mb-2">$ <span className="text-foreground">run founders_vision.sh</span></p>
+              <p className="text-neon-blue mb-2">$ <span className="text-foreground">run visi_pendiri.sh</span></p>
               <p className="text-foreground mb-4">
-                Developed by a team of cybersecurity experts and AI researchers, Shojo 
-                represents a fundamental rethinking of what a modern protocol can achieve.
-                Our vision is to create the backbone for the next generation of decentralized
-                applications, where speed and stability are never compromised.
+                Dikembangkan oleh tim peneliti AI dan ilmuwan kognitif, Shojo 
+                mewakili pendekatan fundamental baru dalam pengembangan AI. 
+                Visi kami adalah menciptakan AI yang benar-benar dapat memahami dunia
+                seperti manusia, melalui pendekatan kognitif yang sistematis dan aman.
               </p>
               <p className="text-neon-blue">$ <span className="cursor-blink text-foreground"></span></p>
             </TerminalWindow>
@@ -86,10 +85,10 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1 font-display">
-                      <BinaryText>Unmatched Stability</BinaryText>
+                      <BinaryText>Biologically-Inspired AI</BinaryText>
                     </h3>
                     <p className="text-foreground/80 font-mono text-sm">
-                      99.9999% uptime guarantee through distributed redundancy and AI-driven load balancing
+                      Model neural berbasis sistem kognisi yang meniru cara kerja otak manusia, bukan hanya statistik
                     </p>
                   </div>
                 </div>

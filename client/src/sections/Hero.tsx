@@ -21,11 +21,13 @@ export default function Hero() {
             <h2 className="text-neon-blue text-xl mb-2 font-mono">// INTRODUCING</h2>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 font-display text-white">
               <BinaryText className="inline-block">Shojo:</BinaryText>
-              <BinaryText className="block mt-2 text-neon-blue">The Future of Stability and Speed</BinaryText>
+              <BinaryText className="block mt-2 text-neon-blue">The future of intelligence and secure AI collaboration.</BinaryText>
             </h1>
             <p className="text-foreground mb-8 text-lg font-mono leading-relaxed">
-              A next-gen decentralized protocol combining unmatched stability, 
-              lightning-fast performance, and AI-powered optimizations.
+              Shojo adalah laboratorium penelitian dan komunitas AI yang berfokus pada pengembangan 
+              AI Generatif berbasis Cognitive Intelligence. Kami membangun Shojo AI Agent, sistem yang 
+              dirancang untuk memahami dan beradaptasi lebih mirip dengan kecerdasan biologis daripada 
+              sekadar model statistik.
             </p>
             <div className="flex flex-wrap gap-4">
               <NeonButton href="#get-started" primary comingSoon>
