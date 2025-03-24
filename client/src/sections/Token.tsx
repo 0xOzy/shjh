@@ -7,9 +7,10 @@ import TerminalWindow from "@/components/TerminalWindow";
 export default function Token() {
   const [copyStatus, setCopyStatus] = useState("");
   const contractAddress = "Sol25HMh7ZwQhz9Kz7hRWcSBuJXVKbX4rcBXqQu1aq2"; // Example Solana contract address
-  
+
   const handleCopy = () => {
-    navigator.clipboard.writeText(contractAddress)
+    navigator.clipboard
+      .writeText(contractAddress)
       .then(() => {
         setCopyStatus("Copied!");
         setTimeout(() => setCopyStatus(""), 2000);
@@ -23,7 +24,7 @@ export default function Token() {
   return (
     <section id="token" className="py-20 relative bg-cyberpunk-black">
       <div className="container mx-auto px-4 z-10 relative">
-        <motion.div 
+        <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -48,86 +49,129 @@ export default function Token() {
             viewport={{ once: true, margin: "-100px" }}
           >
             <TerminalWindow title="token_details.sol" showTime>
-              <p className="text-neon-blue mb-2">$ <span className="text-foreground">shojo --token-info</span></p>
-              <p className="text-foreground mb-4">Fetching $SHOJO token information...</p>
-              <p className="text-success mb-4">Connection established to Solana network.</p>
-              
+              <p className="text-neon-blue mb-2">
+                $ <span className="text-foreground">shojo --token-info</span>
+              </p>
+              <p className="text-foreground mb-4">
+                Fetching $SHOJO token information...
+              </p>
+              <p className="text-success mb-4">
+                Connection established to Solana network.
+              </p>
+
               <div className="mb-6">
                 <p className="text-foreground mb-2">// TOKEN OVERVIEW</p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Token Name:</span> 
+                  <span className="text-neon-purple">Token Name:</span>
                   <span className="text-foreground">SHOJO</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Token Symbol:</span> 
+                  <span className="text-neon-purple">Token Symbol:</span>
                   <span className="text-foreground">$SHOJO</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Network:</span> 
+                  <span className="text-neon-purple">Network:</span>
                   <span className="text-foreground">Solana</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Token Type:</span> 
-                  <span className="text-foreground">SPL (Solana Program Library)</span>
+                  <span className="text-neon-purple">Token Type:</span>
+                  <span className="text-foreground">
+                    SPL (Solana Program Library)
+                  </span>
                 </p>
               </div>
-              
+
               <div className="mb-6">
                 <p className="text-foreground mb-2">// TOKENOMICS</p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Total Supply:</span> 
+                  <span className="text-neon-purple">Total Supply:</span>
                   <span className="text-foreground">1,000,000,000 SHOJO</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Initial Circulating Supply:</span> 
+                  <span className="text-neon-purple">
+                    Initial Circulating Supply:
+                  </span>
                   <span className="text-foreground">250,000,000 SHOJO</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Community Allocation:</span> 
+                  <span className="text-neon-purple">
+                    Community Allocation:
+                  </span>
                   <span className="text-foreground">40%</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Development Fund:</span> 
+                  <span className="text-neon-purple">Development Fund:</span>
                   <span className="text-foreground">25%</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Team & Advisors:</span> 
+                  <span className="text-neon-purple">Team & Advisors:</span>
                   <span className="text-foreground">15% (3-year vesting)</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Ecosystem Growth:</span> 
+                  <span className="text-neon-purple">Ecosystem Growth:</span>
                   <span className="text-foreground">20%</span>
                 </p>
               </div>
-              
+
               <div className="mb-6">
                 <p className="text-foreground mb-2">// CONTRACT ADDRESS</p>
                 <div className="flex items-center justify-between bg-cyberpunk-black/70 p-2 rounded border border-neon-blue/30 mb-2 font-mono text-sm overflow-hidden">
-                  <span className="text-foreground truncate">{contractAddress}</span>
-                  <button 
+                  <span className="text-foreground truncate">
+                    {contractAddress}
+                  </span>
+                  <button
                     onClick={handleCopy}
                     className="ml-2 text-neon-blue hover:text-white whitespace-nowrap"
                   >
                     {copyStatus || "Copy"}
                   </button>
                 </div>
-                <p className="text-xs text-foreground/70">Verify on Solana Explorer before interacting with the contract</p>
+                <p className="text-xs text-foreground/70">
+                  Verify on Solana Explorer before interacting with the contract
+                </p>
               </div>
-              
+
               <div className="mb-6">
                 <p className="text-foreground mb-2">// GITHUB REPOSITORY</p>
                 <div className="flex items-center justify-between bg-cyberpunk-black/70 p-2 rounded border border-neon-blue/30 mb-2 font-mono text-sm overflow-hidden">
-                  <a href="https://github.com/ShojoCo" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-neon-blue transition-colors truncate">https://github.com/ShojoCo</a>
-                  <a href="https://github.com/ShojoCo" target="_blank" rel="noopener noreferrer">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-neon-blue hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  <a
+                    href="https://github.com/ShojoCo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground hover:text-neon-blue transition-colors truncate"
+                  >
+                    https://github.com/ShojoCo
+                  </a>
+                  <a
+                    href="https://github.com/ShojoCo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 text-neon-blue hover:text-white transition-colors"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
                     </svg>
                   </a>
                 </div>
-                <p className="text-xs text-foreground/70">Follow our open-source development progress in the Shojo Token section</p>
+                <p className="text-xs text-foreground/70">
+                  Follow our open-source development progress in the Shojo Token
+                  section
+                </p>
               </div>
-              
-              <p className="text-neon-blue mt-6">$ <span className="cursor-blink text-foreground"></span></p>
+
+              <p className="text-neon-blue mt-6">
+                $ <span className="cursor-blink text-foreground"></span>
+              </p>
             </TerminalWindow>
           </motion.div>
 
@@ -146,23 +190,37 @@ export default function Token() {
                 <ul className="space-y-3 font-mono text-sm text-foreground/80">
                   <li className="flex items-start">
                     <span className="text-neon-blue mr-2">›</span>
-                    <span>Access to premium features in Shojo AI Agent for advanced market analysis</span>
+                    <span>
+                      Access to premium features in Shojo AI Agent for advanced
+                      market analysis
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-neon-blue mr-2">›</span>
-                    <span>Create and manage private chat rooms in the community platform</span>
+                    <span>
+                      Create and manage private chat rooms in the community
+                      platform
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-neon-blue mr-2">›</span>
-                    <span>Governance rights for voting on protocol upgrades and development direction</span>
+                    <span>
+                      Governance rights for voting on protocol upgrades and
+                      development direction
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-neon-blue mr-2">›</span>
-                    <span>Staking rewards for providing liquidity and network security</span>
+                    <span>
+                      Staking rewards for providing liquidity and network
+                      security
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-neon-blue mr-2">›</span>
-                    <span>Pay for API access and integration services for developers</span>
+                    <span>
+                      Pay for API access and integration services for developers
+                    </span>
                   </li>
                 </ul>
               </CyberpunkCard>
@@ -193,7 +251,9 @@ export default function Token() {
                   </li>
                 </ul>
                 <div className="mt-3 text-right">
-                  <span className="text-xs font-mono text-neon-blue">COMING SOON</span>
+                  <span className="text-xs font-mono text-neon-blue">
+                    COMING SOON
+                  </span>
                 </div>
               </CyberpunkCard>
             </motion.div>
@@ -223,7 +283,9 @@ export default function Token() {
                   </li>
                 </ul>
                 <div className="mt-3 text-right">
-                  <span className="text-xs font-mono text-neon-blue">VERIFIED</span>
+                  <span className="text-xs font-mono text-neon-blue">
+                    VERIFIED
+                  </span>
                 </div>
               </CyberpunkCard>
             </motion.div>
