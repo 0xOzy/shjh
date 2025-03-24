@@ -29,7 +29,7 @@ export default function TermsOfService() {
             </h1>
             <div className="w-24 h-1 bg-neon-blue mx-auto my-4"></div>
             <p className="text-foreground max-w-2xl mx-auto font-mono">
-              The rules and guidelines governing your use of the Shojo protocol
+              The rules and guidelines governing your use of the Shojo AI Research Lab &amp; Community Platform
             </p>
           </motion.div>
 
@@ -44,12 +44,12 @@ export default function TermsOfService() {
               <div className="space-y-6 text-foreground font-mono">
                 <div>
                   <h2 className="text-xl text-neon-blue mb-2">1. Acceptance of Terms</h2>
-                  <p>By accessing or using the Shojo protocol and related services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.</p>
+                  <p>By accessing or using the Shojo AI Research Lab & Community Platform and related services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our platform or services.</p>
                 </div>
                 
                 <div>
                   <h2 className="text-xl text-neon-blue mb-2">2. Service Description</h2>
-                  <p>Shojo is a decentralized protocol designed to provide high-speed, stable, and secure network infrastructure. Our services include protocol access, developer tools, and related applications.</p>
+                  <p>Shojo is an AI Research Lab and Community Platform focused on crypto market intelligence and secure community discussions. Our services include AI-powered market analysis tools, pseudonymous community forums, and research collaboration opportunities.</p>
                 </div>
                 
                 <div>

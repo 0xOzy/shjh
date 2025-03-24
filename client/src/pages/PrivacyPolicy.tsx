@@ -71,39 +71,43 @@ export default function PrivacyPolicy() {
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">4. Data Security</h2>
-                  <p>We implement military-grade encryption and advanced security measures to protect your data from unauthorized access, alteration, disclosure, or destruction. Our AI-powered security system continuously monitors for potential threats and vulnerabilities.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">4. Data Security & Privacy</h2>
+                  <p>We implement end-to-end encryption, zero-knowledge proofs, and advanced security measures to protect your data and ensure pseudonymous participation. Our platform's architecture uses decentralized identity (DID) technology and blockchain-based verification to maintain user privacy while enabling secure collaboration.</p>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">5. Data Retention</h2>
-                  <p>We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy or as required by law. When data is no longer needed, it is securely deleted from our systems.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">5. AI Research & Market Analysis</h2>
+                  <p>Our AI research models analyze market data to identify patterns and generate insights. All market analyses are provided for informational purposes only and should not be considered financial advice. While we strive for accuracy in our algorithms, we cannot guarantee specific market outcomes. User contribution to our research data is anonymized and aggregated.</p>
+                  
+                  <h2 className="text-xl text-neon-blue mb-2 mt-6">6. Data Retention</h2>
+                  <p>We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy or as required by law. Community contributions may be archived for historical research purposes, but will remain pseudonymous with no linkage to personal identifiers.</p>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">6. Your Rights</h2>
+                  <h2 className="text-xl text-neon-blue mb-2">7. Your Rights</h2>
                   <p className="mb-1">Depending on your jurisdiction, you may have the following rights:</p>
                   <ul className="list-disc list-inside pl-4 space-y-1">
-                    <li>Access and receive a copy of your personal data</li>
+                    <li>Access and receive a copy of your pseudonymous data</li>
                     <li>Rectify inaccurate or incomplete information</li>
-                    <li>Request deletion of your personal data</li>
-                    <li>Restrict or object to certain processing activities</li>
-                    <li>Data portability rights</li>
+                    <li>Request deletion of your data from our systems</li>
+                    <li>Withdraw from research participation at any time</li>
+                    <li>Opt out of certain data processing activities</li>
+                    <li>Request data portability where applicable</li>
                   </ul>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">7. Changes to This Policy</h2>
-                  <p>We may update this Privacy Policy periodically to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify users of any material changes through appropriate channels.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">8. Changes to This Policy</h2>
+                  <p>We may update this Privacy Policy periodically to reflect changes in our practices, AI research methodology, or for operational, legal, or regulatory reasons. We will notify community members of any material changes through our platform and communication channels.</p>
                 </div>
                 
                 <div>
-                  <h2 className="text-xl text-neon-blue mb-2">8. Contact Us</h2>
-                  <p>If you have questions or concerns about this Privacy Policy or our data practices, please contact us at <span className="text-neon-blue">privacy@shojo.ai</span>.</p>
+                  <h2 className="text-xl text-neon-blue mb-2">9. Contact Us</h2>
+                  <p>If you have questions or concerns about this Privacy Policy, our AI research methods, or data practices, please contact our Privacy Team at <span className="text-neon-blue">privacy@shojo.ai</span> or through our secure communication channels on the platform.</p>
                 </div>
                 
                 <div>
-                  <p className="text-foreground/70">Last Updated: March 23, 2025</p>
+                  <p className="text-foreground/70">Last Updated: March 24, 2025</p>
                 </div>
               </div>
               
