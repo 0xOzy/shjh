@@ -47,7 +47,7 @@ export default function Hero() {
           >
             {/* Anime character image */}
             <div className="rounded-lg shadow-neon-purple overflow-hidden relative">
-              {/* Menggunakan gambar SVG dari direktori assets */}
+              {/* Using SVG image from assets directory */}
               <img 
                 src={animeCharacterSvg} 
                 alt="Shojo Anime Character" 

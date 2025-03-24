@@ -7,6 +7,7 @@ import About from "@/sections/About";
 import Features from "@/sections/Features";
 import Stats from "@/sections/Stats";
 import Roadmap from "@/sections/Roadmap";
+import Token from "@/sections/Token";
 import CTA from "@/sections/CTA";
 import Footer from "@/sections/Footer";
 
@@ -54,6 +55,7 @@ export default function Home() {
       <Features />
       <Stats />
       <Roadmap />
+      <Token />
       <CTA />
       <Footer />
     </motion.div>

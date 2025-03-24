@@ -55,6 +55,9 @@ export default function NavBar() {
             <a href="#roadmap" className="font-mono text-white hover:text-neon-blue transition-colors">
               <BinaryText>Roadmap</BinaryText>
             </a>
+            <a href="#token" className="font-mono text-white hover:text-neon-blue transition-colors">
+              <BinaryText>Token</BinaryText>
+            </a>
           </div>
           
           {/* CTA Button */}
@@ -125,6 +128,13 @@ export default function NavBar() {
                   onClick={closeMobileMenu}
                 >
                   <BinaryText>Roadmap</BinaryText>
+                </a>
+                <a 
+                  href="#token" 
+                  className="font-mono text-white hover:text-neon-blue transition-colors py-2"
+                  onClick={closeMobileMenu}
+                >
+                  <BinaryText>Token</BinaryText>
                 </a>
                 <NeonButton 
                   href="#get-started" 

@@ -50,8 +50,8 @@ export default function CTA() {
                   Join the <BinaryText className="text-neon-blue">Shojo</BinaryText> Network
                 </h2>
                 <p className="text-foreground font-mono mb-8 max-w-2xl mx-auto">
-                  Be part of the future of decentralized protocols. Experience unmatched stability, 
-                  lightning-fast speeds, and cutting-edge AI optimization.
+                  Join the Shojo AI Research Lab & Community. Experience intelligent crypto market analysis 
+                  and secure, anonymous discussions in our blockchain-based chat platform.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
