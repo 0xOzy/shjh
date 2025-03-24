@@ -33,8 +33,21 @@ export default function BinaryText({
     setIsAnimating(true);
     originalTextRef.current = children;
     
+    // Make sure binary text has the exact same length as original
     const binaryLength = textContent.length;
-    setDisplayText(randomBinary(binaryLength));
+    let binary = randomBinary(binaryLength);
+    
+    // Truncate binary text if it's longer than original text
+    if (binary.length > binaryLength) {
+      binary = binary.substring(0, binaryLength);
+    }
+    
+    // Pad binary text if it's shorter than original text
+    while (binary.length < binaryLength) {
+      binary += "0";
+    }
+    
+    setDisplayText(binary);
     
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
@@ -60,11 +73,14 @@ export default function BinaryText({
   
   return (
     <motion.span
-      className={`${className} inline-block overflow-hidden`}
+      className={`${className} inline-block overflow-hidden whitespace-normal break-words`}
       onMouseEnter={changeToComingSoon && hasChangedToComingSoon ? undefined : animateText}
       whileHover={{ scale: 1.02 }}
       transition={{ duration: 0.2 }}
-      style={{ minWidth: isAnimating ? `${textContent.length}ch` : 'auto' }}
+      style={{ 
+        width: isAnimating ? '100%' : 'auto',
+        maxWidth: '100%'
+      }}
     >
       {displayText}
     </motion.span>
