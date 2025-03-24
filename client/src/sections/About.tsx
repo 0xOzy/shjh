@@ -32,7 +32,7 @@ export default function About() {
           </h2>
           <div className="w-24 h-1 bg-neon-blue mx-auto my-4"></div>
           <p className="text-foreground max-w-2xl mx-auto font-mono">
-            A revolutionary decentralized protocol engineered for the future
+            More than just an AI Research Lab building AI that truly understands context
           </p>
         </motion.div>
 
@@ -47,22 +47,22 @@ export default function About() {
             <TerminalWindow title="about.shojo">
               <p className="text-neon-blue mb-2">$ <span className="text-foreground">info --about Shojo</span></p>
               <p className="text-foreground mb-4">
-                <span className="text-neon-purple">Shojo</span> bukan sekadar organisasi riset <span className="text-neon-blue">AI biasa</span>. Kami percaya bahwa <span className="text-neon-blue">Artificial General Intelligence (AGI)</span> harus dikembangkan berdasarkan prinsip ilmiah yang mendasar, bukan sekadar model statistik berbasis data besar.
+                <span className="text-neon-purple">Shojo</span> is more than just an <span className="text-neon-blue">AI Research Lab</span>. We build AI that truly understands context, beyond mere pattern recognition, developing agents that can analyze complex markets and scenarios.
               </p>
-              <p className="text-neon-blue mb-2">$ <span className="text-foreground">cat pendekatan_kami.txt</span></p>
-              <p className="text-foreground mb-1">// PENDEKATAN KAMI:</p>
+              <p className="text-neon-blue mb-2">$ <span className="text-foreground">cat our_approach.txt</span></p>
+              <p className="text-foreground mb-1">// OUR APPROACH:</p>
               <ul className="list-disc list-inside mb-4 pl-4">
-                <li className="mb-1"><span className="text-neon-blue">Neural Architectures Inspired by Biology:</span> Mengembangkan sistem yang meniru memori semantik, pemrosesan saraf, dan adaptasi evolusioner</li>
-                <li className="mb-1"><span className="text-neon-blue">AI & Cognitive Science:</span> Membangun AI yang benar-benar bisa berpikir, bukan hanya mencocokkan pola</li>
-                <li className="mb-1"><span className="text-neon-blue">Decentralized & Secure:</span> Komunitas berbasis DID (Decentralized Identity), memastikan keamanan dan anonimitas pengguna</li>
-                <li className="mb-1"><span className="text-neon-blue">Community Research:</span> Kolaborasi global untuk memajukan pemahaman tentang kognisi dan intelegensi</li>
+                <li className="mb-1"><span className="text-neon-blue">Cognitive AI:</span> AI models that adapt and interpret naturally, beyond statistical analysis</li>
+                <li className="mb-1"><span className="text-neon-blue">Anonymous & Decentralized:</span> Utilizing DID (Decentralized Identity) for enhanced data security</li>
+                <li className="mb-1"><span className="text-neon-blue">Solana-Based:</span> Leveraging Solana's speed and scalability for Shojo AI & its community</li>
+                <li className="mb-1"><span className="text-neon-blue">Flexible & Open Community:</span> Anyone can create their own discussion community within Shojo</li>
               </ul>
-              <p className="text-neon-blue mb-2">$ <span className="text-foreground">run visi_pendiri.sh</span></p>
+              <p className="text-neon-blue mb-2">$ <span className="text-foreground">run founder_vision.sh</span></p>
               <p className="text-foreground mb-4">
-                Dikembangkan oleh tim peneliti AI dan ilmuwan kognitif, Shojo 
-                mewakili pendekatan fundamental baru dalam pengembangan AI. 
-                Visi kami adalah menciptakan AI yang benar-benar dapat memahami dunia
-                seperti manusia, melalui pendekatan kognitif yang sistematis dan aman.
+                Developed by a team of AI researchers and crypto market analysts, Shojo 
+                represents a fundamental new approach to AI development with a focus on 
+                market intelligence. Our vision is to create an AI that can truly understand 
+                financial markets while providing a secure, anonymous community platform.
               </p>
               <p className="text-neon-blue">$ <span className="cursor-blink text-foreground"></span></p>
             </TerminalWindow>
