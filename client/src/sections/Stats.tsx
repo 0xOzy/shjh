@@ -59,12 +59,12 @@ export default function Stats() {
           viewport={{ once: true, margin: "-100px" }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-display">
-            <BinaryText className="text-white">Network </BinaryText>
-            <BinaryText className="text-neon-blue">Statistics</BinaryText>
+            <BinaryText className="text-white">AI Research </BinaryText>
+            <BinaryText className="text-neon-blue">Metrics</BinaryText>
           </h2>
           <div className="w-24 h-1 bg-neon-blue mx-auto my-4"></div>
           <p className="text-foreground max-w-2xl mx-auto font-mono">
-            Real-time metrics showcasing Shojo's performance
+            Real-time data dari penelitian dan pengembangan model AI kognitif
           </p>
         </motion.div>
 
@@ -81,42 +81,42 @@ export default function Stats() {
               <p className="text-success mb-4">Connection established. Streaming real-time metrics.</p>
               
               <div className="mb-6">
-                <p className="text-foreground mb-2">// SYSTEM STATUS</p>
+                <p className="text-foreground mb-2">// MODEL STATUS</p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Network Status:</span> 
-                  <span className="text-success">ONLINE</span>
+                  <span className="text-neon-purple">AI System Status:</span> 
+                  <span className="text-success">OPERATIONAL</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Current Version:</span> 
-                  <span className="text-foreground">v2.04.7</span>
+                  <span className="text-neon-purple">Model Version:</span> 
+                  <span className="text-foreground">Shojo Cognitive v1.3.7</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Uptime:</span> 
-                  <span className="text-foreground">342 days, 7 hours, 23 minutes</span>
+                  <span className="text-neon-purple">Training Duration:</span> 
+                  <span className="text-foreground">342 hari, 7 jam, 23 menit</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Last Maintenance:</span> 
-                  <span className="text-foreground">23 days ago</span>
+                  <span className="text-neon-purple">Last Parameter Update:</span> 
+                  <span className="text-foreground">3 hari yang lalu</span>
                 </p>
               </div>
               
               <div className="mb-6">
-                <p className="text-foreground mb-2">// PERFORMANCE METRICS</p>
+                <p className="text-foreground mb-2">// MODEL PERFORMANCE</p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Current TPS:</span> 
-                  <span className="text-foreground">87,342</span>
-                  <span className="text-success ml-2">↑ 3.2%</span>
+                  <span className="text-neon-purple">Parameter Count:</span> 
+                  <span className="text-foreground">87.3 milyar</span>
+                  <span className="text-success ml-2">↑ 12.5%</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Average Latency:</span> 
+                  <span className="text-neon-purple">Inference Time:</span> 
                   <span className="text-foreground">{latency.toFixed(1)}ms</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Block Time:</span> 
-                  <span className="text-foreground">0.8 seconds</span>
+                  <span className="text-neon-purple">Context Window:</span> 
+                  <span className="text-foreground">100K tokens</span>
                 </p>
                 <p className="mb-1">
-                  <span className="text-neon-purple">Network Load:</span> 
+                  <span className="text-neon-purple">Utilisasi GPU:</span> 
                   <span className="text-foreground">{networkLoad}%</span>
                 </p>
               </div>
@@ -179,11 +179,11 @@ export default function Stats() {
             >
               <CyberpunkCard className="p-6">
                 <h3 className="text-xl font-bold mb-4 font-display text-white">
-                  <BinaryText>Network Visualization</BinaryText>
+                  <BinaryText>Neural Network Model</BinaryText>
                 </h3>
                 <div className="bg-cyberpunk-black/50 border border-neon-blue/20 rounded-lg p-4 h-64 flex items-center justify-center">
                   <div className="text-center w-full h-full">
-                    <p className="text-foreground/70 font-mono text-sm mb-2">Cybernetic Network Visualization</p>
+                    <p className="text-foreground/70 font-mono text-sm mb-2">Model Kognitif Hierarkis</p>
                     <NetworkVisualization />
                   </div>
                 </div>
