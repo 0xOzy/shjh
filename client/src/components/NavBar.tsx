@@ -79,6 +79,9 @@ export default function NavBar() {
                 <a href="/documentation" className="font-mono text-white hover:text-neon-blue transition-colors">
                   <BinaryText>Documentation</BinaryText>
                 </a>
+                <a href="/social-media" className="font-mono text-white hover:text-neon-blue transition-colors">
+                  <BinaryText>Social Media</BinaryText>
+                </a>
               </>
             )}
           </div>
