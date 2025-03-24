@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
             </h1>
             <div className="w-24 h-1 bg-neon-blue mx-auto my-4"></div>
             <p className="text-foreground max-w-2xl mx-auto font-mono">
-              How we protect and manage your data within the Shojo network
+              How we protect your privacy and data as part of our AI Research Lab &amp; Community Platform
             </p>
           </motion.div>
 
@@ -44,16 +44,17 @@ export default function PrivacyPolicy() {
               <div className="space-y-6 text-foreground font-mono">
                 <div>
                   <h2 className="text-xl text-neon-blue mb-2">1. Introduction</h2>
-                  <p>Shojo ("we", "our", or "us") is committed to protecting the privacy of our users. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our decentralized protocol and related services.</p>
+                  <p>Shojo ("we", "our", or "us") is committed to protecting the privacy of our users. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our AI research platform, community discussions, and market intelligence services.</p>
                 </div>
                 
                 <div>
                   <h2 className="text-xl text-neon-blue mb-2">2. Information We Collect</h2>
                   <p className="mb-1">We collect the following types of information:</p>
                   <ul className="list-disc list-inside pl-4 space-y-1">
-                    <li><span className="text-neon-purple">Network Usage Data:</span> Information about how you interact with the Shojo network</li>
-                    <li><span className="text-neon-purple">Technical Information:</span> Device information, IP addresses, and system configuration</li>
-                    <li><span className="text-neon-purple">User-Provided Information:</span> Any data you voluntarily provide when using our services</li>
+                    <li><span className="text-neon-purple">Platform Usage Data:</span> Information about how you interact with our AI research tools and community platform</li>
+                    <li><span className="text-neon-purple">Technical Information:</span> Device information, IP addresses (anonymized), and system configuration</li>
+                    <li><span className="text-neon-purple">User-Provided Information:</span> Any data you voluntarily share in community discussions or research contributions</li>
+                    <li><span className="text-neon-purple">Pseudonymous Identifiers:</span> Blockchain wallet addresses used for secure community participation</li>
                   </ul>
                 </div>
                 
@@ -61,10 +62,11 @@ export default function PrivacyPolicy() {
                   <h2 className="text-xl text-neon-blue mb-2">3. How We Use Your Information</h2>
                   <p className="mb-1">We use collected information for the following purposes:</p>
                   <ul className="list-disc list-inside pl-4 space-y-1">
-                    <li>To provide, maintain, and improve the Shojo protocol</li>
-                    <li>To monitor network performance and ensure stability</li>
-                    <li>To detect and prevent security threats or network abuse</li>
-                    <li>To optimize our AI-driven systems for better performance</li>
+                    <li>To provide, maintain, and improve our AI research tools and community platform</li>
+                    <li>To develop and refine market intelligence algorithms and prediction models</li>
+                    <li>To enable pseudonymous participation in community discussions</li>
+                    <li>To detect and prevent security threats or platform misuse</li>
+                    <li>To optimize our AI-driven systems for better market analysis accuracy</li>
                   </ul>
                 </div>
                 

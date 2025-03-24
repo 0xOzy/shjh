@@ -83,26 +83,26 @@ export default function AboutUs() {
               </div>
               
               <div>
-                <h3 className="text-neon-blue font-mono text-lg">$ ./value --reliability</h3>
+                <h3 className="text-neon-blue font-mono text-lg">$ ./value --privacy</h3>
                 <p className="text-foreground/80 pl-4 border-l border-neon-blue/30 mt-2">
-                  We believe stability and reliability are non-negotiable. Our protocol is designed with multiple failsafes
-                  and redundancies to ensure consistent performance under any circumstances.
+                  We believe user privacy is non-negotiable. Our platform is designed with decentralized identity (DID) 
+                  and end-to-end encryption to ensure anonymous and secure participation in our community.
                 </p>
               </div>
               
               <div>
-                <h3 className="text-neon-blue font-mono text-lg">$ ./value --transparency</h3>
+                <h3 className="text-neon-blue font-mono text-lg">$ ./value --accuracy</h3>
                 <p className="text-foreground/80 pl-4 border-l border-neon-blue/30 mt-2">
-                  Complete transparency in our operations and code is fundamental to building trust. Our protocol is open-source,
-                  and we maintain clear communication with our community about all aspects of development.
+                  Accuracy in our AI research and market analysis is fundamental to building trust. Our algorithms are continuously 
+                  refined to provide the most reliable signals and insights in a transparent, verifiable way.
                 </p>
               </div>
               
               <div>
                 <h3 className="text-neon-blue font-mono text-lg">$ ./value --community</h3>
                 <p className="text-foreground/80 pl-4 border-l border-neon-blue/30 mt-2">
-                  We're building for and with our community. User feedback drives our development process, and we strive
-                  to create an inclusive ecosystem where everyone can contribute and benefit.
+                  We're building for and with our community. Members can participate pseudonymously in research discussions,
+                  contribute to intelligence databases, and share alpha insights through secure channels.
                 </p>
               </div>
             </div>
@@ -122,7 +122,7 @@ export default function AboutUs() {
                   <img src={alexAvatar} alt="Alex Satoshi" className="w-full h-full object-cover" />
                 </div>
                 <h3 className="text-white font-display">Alex Satoshi</h3>
-                <p className="text-foreground/70 font-mono text-sm">Founder & Protocol Architect</p>
+                <p className="text-foreground/70 font-mono text-sm">Founder & Research Director</p>
               </div>
               
               <div className="text-center">
@@ -138,7 +138,7 @@ export default function AboutUs() {
                   <img src={rayAvatar} alt="Ray Takemoto" className="w-full h-full object-cover" />
                 </div>
                 <h3 className="text-white font-display">Ray Takemoto</h3>
-                <p className="text-foreground/70 font-mono text-sm">Security & Systems Engineer</p>
+                <p className="text-foreground/70 font-mono text-sm">Cryptography & Privacy Lead</p>
               </div>
             </div>
           </div>
