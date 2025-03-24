@@ -20,7 +20,7 @@ export default function AboutUs() {
             <BinaryText>About Shojo</BinaryText>
           </h1>
           <p className="text-foreground/70 max-w-3xl mx-auto font-mono">
-            Pioneering the next generation of decentralized protocols with unmatched stability and performance
+            An AI Research Lab &amp; Crypto Community Platform focused on market intelligence and secure discussions
           </p>
         </motion.div>
 
@@ -34,12 +34,12 @@ export default function AboutUs() {
               <h2 className="text-2xl font-display mb-4 text-neon-blue">Our Mission</h2>
               <div className="space-y-4 font-mono">
                 <p>
-                  Shojo was founded with a clear mission: to create a decentralized protocol that combines unmatched stability, 
-                  lightning-fast performance, and AI-powered optimizations for the next generation of digital applications.
+                  Shojo was founded with a clear mission: to create an AI research lab focused on developing intelligent crypto market 
+                  analysis tools and a secure, anonymous blockchain-based community platform.
                 </p>
                 <p>
-                  We believe in a future where decentralized systems can achieve greater efficiency and stability than traditional 
-                  centralized platforms, while maintaining the core values of transparency and user ownership.
+                  We believe in a future where AI-powered market intelligence is accessible to everyone through a secure, decentralized 
+                  platform that maintains the core values of privacy, transparency, and community ownership.
                 </p>
               </div>
             </CyberpunkCard>
@@ -54,12 +54,12 @@ export default function AboutUs() {
               <h2 className="text-2xl font-display mb-4 text-neon-blue">Our Vision</h2>
               <div className="space-y-4 font-mono">
                 <p>
-                  We envision a world where decentralized technology is accessible to everyone, not just technical specialists.
-                  Our goal is to create a protocol that bridges the gap between cutting-edge blockchain technology and real-world applications.
+                  We envision a world where sophisticated AI market analysis and secure community discussions are accessible to everyone.
+                  Our goal is to create a platform that bridges the gap between cutting-edge AI technology and crypto market participants.
                 </p>
                 <p>
-                  Through innovation and dedication to quality, we aim to establish Shojo as the foundation for a new era of 
-                  digital interactions - one that values both performance and user autonomy.
+                  Through innovation and dedication to quality, we aim to establish Shojo as the premier platform for crypto intelligence
+                  and secure community collaboration - one that values both analytical accuracy and user privacy.
                 </p>
               </div>
             </CyberpunkCard>
@@ -75,10 +75,10 @@ export default function AboutUs() {
           <TerminalWindow title="Our Values" className="w-full">
             <div className="space-y-6">
               <div>
-                <h3 className="text-neon-blue font-mono text-lg">$ ./value --innovation</h3>
+                <h3 className="text-neon-blue font-mono text-lg">$ ./value --intelligence</h3>
                 <p className="text-foreground/80 pl-4 border-l border-neon-blue/30 mt-2">
-                  Innovation is at our core. We constantly push the boundaries of what's possible in decentralized technology,
-                  exploring new approaches to solve complex problems in novel ways.
+                  Intelligence is at our core. We constantly push the boundaries of what's possible in AI market analysis,
+                  exploring cognitive models to process market data and extract meaningful insights.
                 </p>
               </div>
               

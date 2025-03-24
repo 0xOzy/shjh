@@ -114,6 +114,17 @@ export default function Token() {
                 <p className="text-xs text-foreground/70">Verify on Solana Explorer before interacting with the contract</p>
               </div>
               
+              <div className="mb-6">
+                <p className="text-foreground mb-2">// GITHUB REPOSITORY</p>
+                <div className="flex items-center justify-between bg-cyberpunk-black/70 p-2 rounded border border-neon-blue/30 mb-2 font-mono text-sm overflow-hidden">
+                  <a href="https://github.com/ShojoCo" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-neon-blue transition-colors truncate">https://github.com/ShojoCo</a>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-neon-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </div>
+                <p className="text-xs text-foreground/70">Follow our open-source development progress</p>
+              </div>
+              
               <p className="text-neon-blue mt-6">$ <span className="cursor-blink text-foreground"></span></p>
             </TerminalWindow>
           </motion.div>

@@ -46,20 +46,20 @@ export default function Roadmap() {
                   </p>
                   <ul className="text-foreground/70 font-mono text-xs space-y-2">
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Core Crypto Market Analysis AI Models
+                      <span className="text-foreground/50 mr-2">○</span> Core Crypto Market Analysis AI Models
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Implementation of DID Architecture
+                      <span className="text-foreground/50 mr-2">○</span> Implementation of DID Architecture
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Secure Collaboration Platform Setup
+                      <span className="text-foreground/50 mr-2">○</span> Secure Collaboration Platform Setup
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Solana Integration Framework
+                      <span className="text-foreground/50 mr-2">○</span> Solana Integration Framework
                     </li>
                   </ul>
                   <div className="mt-3 text-right">
-                    <span className="text-xs font-mono text-neon-blue">COMPLETED Q1 2025</span>
+                    <span className="text-xs font-mono text-neon-blue">PLANNED Q2 2025</span>
                   </div>
                 </CyberpunkCard>
               </div>
@@ -97,20 +97,20 @@ export default function Roadmap() {
                   </p>
                   <ul className="text-foreground/70 font-mono text-xs space-y-2">
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Global Community Expansion
+                      <span className="text-foreground/50 mr-2">○</span> Global Community Expansion
                     </li>
                     <li className="flex items-center">
-                      <span className="text-success mr-2">✓</span> Solana-based User Authentication
+                      <span className="text-foreground/50 mr-2">○</span> Solana-based User Authentication
                     </li>
                     <li className="flex items-center">
-                      <span className="text-warning mr-2">⟳</span> Themed Chat Rooms Development
+                      <span className="text-foreground/50 mr-2">○</span> Themed Chat Rooms Development
                     </li>
                     <li className="flex items-center">
-                      <span className="text-warning mr-2">⟳</span> Custom Private Room Implementation
+                      <span className="text-foreground/50 mr-2">○</span> Custom Private Room Implementation
                     </li>
                   </ul>
                   <div className="mt-3">
-                    <span className="text-xs font-mono text-neon-blue">IN PROGRESS - Q3 2025</span>
+                    <span className="text-xs font-mono text-neon-blue">PLANNED - Q3 2025</span>
                   </div>
                 </CyberpunkCard>
               </div>
