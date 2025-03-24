@@ -7,6 +7,7 @@ import TermsOfService from "@/pages/TermsOfService";
 import Security from "@/pages/Security";
 import Compliance from "@/pages/Compliance";
 import Documentation from "@/pages/Documentation";
+import AboutUs from "@/pages/AboutUs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/security" component={Security} />
         <Route path="/compliance" component={Compliance} />
         <Route path="/documentation" component={Documentation} />
+        <Route path="/about-us" component={AboutUs} />
         <Route component={NotFound} />
       </Switch>
       <Toaster />
