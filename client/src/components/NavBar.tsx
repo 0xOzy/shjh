@@ -190,6 +190,13 @@ export default function NavBar() {
                     >
                       <BinaryText>Documentation</BinaryText>
                     </a>
+                    <a 
+                      href="/social-media" 
+                      className="font-mono text-white hover:text-neon-blue transition-colors py-2"
+                      onClick={closeMobileMenu}
+                    >
+                      <BinaryText>Social Media</BinaryText>
+                    </a>
                   </>
                 )}
                 <NeonButton 
